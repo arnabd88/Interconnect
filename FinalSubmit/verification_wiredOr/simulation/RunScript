@@ -1,0 +1,2 @@
+
+irun -sv -incdir ../../rtl_tp32toICache4kb_wiredOR/ -incdir ../testbench/ -incdir ../testbench/test_dir/ ../testbench/testbench.sv -input ncsim.tcl -access rwc

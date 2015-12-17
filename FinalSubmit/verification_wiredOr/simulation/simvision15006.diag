@@ -1,0 +1,1201 @@
+*** Message Type: info ***
+When: Thu Oct 01 10:50:41 MDT 2015
+SimVision started.
+Version: TOOL:  simvision(64)   13.10-s003
+User: arnabd
+Host: lab1-20.eng.utah.edu
+Platform: Linux/x86_64/3.10.0-123.el7.x86_64
+Started: Thu Oct 01 10:50:41 MDT 2015
+Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/simvision.exe waves.shm/waves.trn
+Work Directory: /home/arnabd/work/Interconnect/verification/simulation
+ 
+*** Message Type: info ***
+When: Thu Oct 01 10:50:42 MDT 2015
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 10:50:47 MDT 2015
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 10:50:47 MDT 2015
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 11:42:29 MDT 2015
+Create source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 11:42:32 MDT 2015
+Connect to Simulator
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 11:42:32 MDT 2015
+  Process ID: 28200
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 11:42:32 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 11:42:32 MDT 2015
+  Process ID: 28200
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 11:42:37 MDT 2015
+Delete source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 11:43:54 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 11:43:54 MDT 2015
+  Process ID: 13636
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 11:56:19 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 11:56:19 MDT 2015
+  Process ID: 9040
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 12:41:19 MDT 2015
+no notification for event "!output"
+    while executing
+"dac::notify remove $this !output"
+    ("disable" arm line 2)
+    invoked from within
+"switch -- $op {
+     write {
+   
+        array set event $args
+          set msg $event(output)
+         switch -- $event(channel) {
+                a {
+                append _buffer [list ..."
+    (object "::.console0.work.user.tabnotebook.1" method "::ConsoleSimTab::_simOutput" body line 2)
+    invoked from within
+"::.console0.work.user.tabnotebook.1 _simOutput disable"
+    (in namespace inscope "::ConsoleSimTab" script line 1)
+    invoked from within
+"namespace inscope ::ConsoleSimTab {::.console0.work.user.tabnotebook.1 _simOutput disable}"
+    (while executing background task for duty "disable-output" in owner ::.console0.work.user.tabnotebook.1)
+ 
+*** Message Type: info ***
+When: Thu Oct 01 12:41:19 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 12:41:19 MDT 2015
+  Process ID: 31819
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 12:43:32 MDT 2015
+Create schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 12:44:57 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 12:44:57 MDT 2015
+  Process ID: 13543
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 12:46:00 MDT 2015
+Create source window: "Source Browser 2"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 12:49:46 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 12:49:45 MDT 2015
+  Process ID: 9965
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 12:50:37 MDT 2015
+Delete source window: "Source Browser 2"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 12:50:40 MDT 2015
+Create source window: "Source Browser 3"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 13:00:41 MDT 2015
+Delete source window: "Source Browser 3"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 13:03:54 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 13:03:54 MDT 2015
+  Process ID: 27764
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 13:06:34 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 13:06:34 MDT 2015
+  Process ID: 29392
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 13:08:16 MDT 2015
+Create source window: "Source Browser 4"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 13:19:45 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 13:19:45 MDT 2015
+  Process ID: 3577
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 13:19:45 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 13:22:03 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 13:22:03 MDT 2015
+  Process ID: 567
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 13:33:28 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 13:33:27 MDT 2015
+  Process ID: 16464
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 13:38:12 MDT 2015
+no notification for event "!output"
+    while executing
+"dac::notify remove $this !output"
+    ("disable" arm line 2)
+    invoked from within
+"switch -- $op {
+     write {
+   
+        array set event $args
+          set msg $event(output)
+         switch -- $event(channel) {
+                a {
+                append _buffer [list ..."
+    (object "::.console0.work.user.tabnotebook.1" method "::ConsoleSimTab::_simOutput" body line 2)
+    invoked from within
+"::.console0.work.user.tabnotebook.1 _simOutput disable"
+    (in namespace inscope "::ConsoleSimTab" script line 1)
+    invoked from within
+"namespace inscope ::ConsoleSimTab {::.console0.work.user.tabnotebook.1 _simOutput disable}"
+    (while executing background task for duty "disable-output" in owner ::.console0.work.user.tabnotebook.1)
+ 
+*** Message Type: info ***
+When: Thu Oct 01 13:38:12 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 13:38:11 MDT 2015
+  Process ID: 12065
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 13:38:44 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 13:38:43 MDT 2015
+  Process ID: 18780
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 13:42:44 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 13:42:43 MDT 2015
+  Process ID: 5374
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 13:42:44 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 14:42:14 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 14:42:13 MDT 2015
+  Process ID: 19442
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 14:43:46 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 14:43:46 MDT 2015
+  Process ID: 6890
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 14:43:46 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 14:55:29 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 14:55:28 MDT 2015
+  Process ID: 26281
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 14:55:29 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 15:02:18 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 15:02:17 MDT 2015
+  Process ID: 16065
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 15:02:18 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 15:07:44 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 15:07:44 MDT 2015
+  Process ID: 20329
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 15:07:44 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 15:13:06 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 15:13:06 MDT 2015
+  Process ID: 23833
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 15:13:06 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 15:24:58 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 15:24:57 MDT 2015
+  Process ID: 13350
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 15:24:58 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 15:37:43 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 15:37:43 MDT 2015
+  Process ID: 14257
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 15:41:16 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 15:41:16 MDT 2015
+  Process ID: 26791
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 15:41:16 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 15:48:08 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 15:48:07 MDT 2015
+  Process ID: 17072
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 15:48:08 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 15:49:35 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 15:49:35 MDT 2015
+  Process ID: 3433
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 15:56:54 MDT 2015
+Delete source window: "Source Browser 4"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 16:04:52 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 16:04:51 MDT 2015
+  Process ID: 3572
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 16:04:52 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 16:16:35 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 16:16:35 MDT 2015
+  Process ID: 23146
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 16:16:35 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 16:22:29 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 16:22:29 MDT 2015
+  Process ID: 1682
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 16:30:10 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 16:30:10 MDT 2015
+  Process ID: 2440
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: info ***
+When: Thu Oct 01 16:31:35 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 16:31:34 MDT 2015
+  Process ID: 20233
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 16:31:35 MDT 2015
+recursive call not supported
+    while executing
+"$itk_component(nlview) ictrl isinit_and_attached"
+    (object "::.schematicWindow0.work.user.scrollframe.schematic" method "::SchematicBoxIctrl::updatevalues" body line 14)
+    invoked from within
+"$itk_component(schematic) updatevalues $arga(time)"
+    ("!time" arm line 12)
+    invoked from within
+"switch -- $arga(event) {
+     !cursor {
+          # event !cursor cursor <cursorhandle>
+          configure -markerprimary $arga(cursor)
+     }
+      
+       !time {
+            # event ..."
+    (object "::.schematicWindow0" method "::SchematicWindow::_processTimeControlEvents" body line 4)
+    invoked from within
+"::.schematicWindow0 _processTimeControlEvents event !time time 11,850ns"
+    (in namespace inscope "::SchematicWindow" script line 1)
+    invoked from within
+"namespace inscope ::SchematicWindow {::.schematicWindow0 _processTimeControlEvents} event !time time 11,850ns"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 16:32:38 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 16:32:37 MDT 2015
+  Process ID: 1426
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 16:35:05 MDT 2015
+no notification for event "!output"
+    while executing
+"dac::notify remove $this !output"
+    ("disable" arm line 2)
+    invoked from within
+"switch -- $op {
+     write {
+   
+        array set event $args
+          set msg $event(output)
+         switch -- $event(channel) {
+                a {
+                append _buffer [list ..."
+    (object "::.console0.work.user.tabnotebook.1" method "::ConsoleSimTab::_simOutput" body line 2)
+    invoked from within
+"::.console0.work.user.tabnotebook.1 _simOutput disable"
+    (in namespace inscope "::ConsoleSimTab" script line 1)
+    invoked from within
+"namespace inscope ::ConsoleSimTab {::.console0.work.user.tabnotebook.1 _simOutput disable}"
+    (while executing background task for duty "disable-output" in owner ::.console0.work.user.tabnotebook.1)
+ 
+*** Message Type: info ***
+When: Thu Oct 01 16:35:05 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 16:35:04 MDT 2015
+  Process ID: 32539
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 16:35:05 MDT 2015
+could not read "/home/arnabd/work/Interconnect/rtl/CrossbarInterconnect.sv": no such file or directory
+    while executing
+"file mtime $file"
+    (object "::srcData2" method "::SrcBrowser::SrcData::isModified" body line 7)
+    invoked from within
+"isModified """
+    (object "::srcData2" method "::SrcBrowser::SrcData::refreshAllData" body line 3)
+    invoked from within
+"refreshAllData"
+    ("!state.reinvoke" arm line 6)
+    invoked from within
+"switch $info(event) {
+        !state.reinvoke {
+            #
+            # When reinvoke happens, we have to refresh all the
+            # buffers an..."
+    (object "::srcData2" method "::SrcBrowser::SrcData::_stateEventCB" body line 7)
+    invoked from within
+"::srcData2 _stateEventCB event !state.reinvoke handle @public@44"
+    (in namespace inscope "::SrcBrowser::SrcData" script line 1)
+    invoked from within
+"namespace inscope ::SrcBrowser::SrcData {::srcData2 _stateEventCB} event !state.reinvoke handle @public@44"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 16:36:24 MDT 2015
+Delete schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 16:37:54 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 16:37:53 MDT 2015
+  Process ID: 3694
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 16:37:54 MDT 2015
+could not read "/home/arnabd/work/Interconnect/rtl/CrossbarInterconnect.sv": no such file or directory
+    while executing
+"file mtime $file"
+    (object "::srcData2" method "::SrcBrowser::SrcData::isModified" body line 7)
+    invoked from within
+"isModified """
+    (object "::srcData2" method "::SrcBrowser::SrcData::refreshAllData" body line 3)
+    invoked from within
+"refreshAllData"
+    ("!state.reinvoke" arm line 6)
+    invoked from within
+"switch $info(event) {
+        !state.reinvoke {
+            #
+            # When reinvoke happens, we have to refresh all the
+            # buffers an..."
+    (object "::srcData2" method "::SrcBrowser::SrcData::_stateEventCB" body line 7)
+    invoked from within
+"::srcData2 _stateEventCB event !state.reinvoke handle @public@44"
+    (in namespace inscope "::SrcBrowser::SrcData" script line 1)
+    invoked from within
+"namespace inscope ::SrcBrowser::SrcData {::srcData2 _stateEventCB} event !state.reinvoke handle @public@44"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 19:56:40 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 19:56:39 MDT 2015
+  Process ID: 2989
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 19:56:40 MDT 2015
+could not read "/home/arnabd/work/Interconnect/rtl/CrossbarInterconnect.sv": no such file or directory
+    while executing
+"file mtime $file"
+    (object "::srcData2" method "::SrcBrowser::SrcData::isModified" body line 7)
+    invoked from within
+"isModified """
+    (object "::srcData2" method "::SrcBrowser::SrcData::refreshAllData" body line 3)
+    invoked from within
+"refreshAllData"
+    ("!state.reinvoke" arm line 6)
+    invoked from within
+"switch $info(event) {
+        !state.reinvoke {
+            #
+            # When reinvoke happens, we have to refresh all the
+            # buffers an..."
+    (object "::srcData2" method "::SrcBrowser::SrcData::_stateEventCB" body line 7)
+    invoked from within
+"::srcData2 _stateEventCB event !state.reinvoke handle @public@44"
+    (in namespace inscope "::SrcBrowser::SrcData" script line 1)
+    invoked from within
+"namespace inscope ::SrcBrowser::SrcData {::srcData2 _stateEventCB} event !state.reinvoke handle @public@44"
+ 
+*** Message Type: error ***
+When: Thu Oct 01 19:56:40 MDT 2015
+could not read "/home/arnabd/work/Interconnect/rtl/Arbiter.sv": no such file or directory
+    while executing
+"file mtime $file"
+    (object "::srcData3" method "::SrcBrowser::SrcData::isModified" body line 7)
+    invoked from within
+"isModified """
+    (object "::srcData3" method "::SrcBrowser::SrcData::refreshAllData" body line 3)
+    invoked from within
+"refreshAllData"
+    ("!state.reinvoke" arm line 6)
+    invoked from within
+"switch $info(event) {
+        !state.reinvoke {
+            #
+            # When reinvoke happens, we have to refresh all the
+            # buffers an..."
+    (object "::srcData3" method "::SrcBrowser::SrcData::_stateEventCB" body line 7)
+    invoked from within
+"::srcData3 _stateEventCB event !state.reinvoke handle @public@44"
+    (in namespace inscope "::SrcBrowser::SrcData" script line 1)
+    invoked from within
+"namespace inscope ::SrcBrowser::SrcData {::srcData3 _stateEventCB} event !state.reinvoke handle @public@44"
+ 
+*** Message Type: error ***
+When: Thu Oct 01 19:56:40 MDT 2015
+could not read "/home/arnabd/work/Interconnect/rtl/Demux.sv": no such file or directory
+    while executing
+"file mtime $file"
+    (object "::srcData4" method "::SrcBrowser::SrcData::isModified" body line 7)
+    invoked from within
+"isModified """
+    (object "::srcData4" method "::SrcBrowser::SrcData::refreshAllData" body line 3)
+    invoked from within
+"refreshAllData"
+    ("!state.reinvoke" arm line 6)
+    invoked from within
+"switch $info(event) {
+        !state.reinvoke {
+            #
+            # When reinvoke happens, we have to refresh all the
+            # buffers an..."
+    (object "::srcData4" method "::SrcBrowser::SrcData::_stateEventCB" body line 7)
+    invoked from within
+"::srcData4 _stateEventCB event !state.reinvoke handle @public@44"
+    (in namespace inscope "::SrcBrowser::SrcData" script line 1)
+    invoked from within
+"namespace inscope ::SrcBrowser::SrcData {::srcData4 _stateEventCB} event !state.reinvoke handle @public@44"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 20:00:08 MDT 2015
+Exit Incisive ppe: user
+      Design: worklib.testbench:sv
+   Languages: verilog
+   Simulator: Incisive ppe
+     Version: TOOL: ippe(64)        13.10-s003
+        User: arnabd
+        Host: lab1-20.eng.utah.edu
+Time Started: Thu Oct 01 20:00:08 MDT 2015
+  Process ID: 14618
+   Directory: /home/arnabd/work/Interconnect/verification/simulation
+     Command: /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /home/arnabd/work/Interconnect/verification/simulation/./INCA_libs/irun.lnx8664.13.10.nc/cds.lib -snapshot worklib.testbench:sv -64
+
+ 
+*** Message Type: error ***
+When: Thu Oct 01 20:00:08 MDT 2015
+could not read "/home/arnabd/work/Interconnect/rtl/CrossbarInterconnect.sv": no such file or directory
+    while executing
+"file mtime $file"
+    (object "::srcData2" method "::SrcBrowser::SrcData::isModified" body line 7)
+    invoked from within
+"isModified """
+    (object "::srcData2" method "::SrcBrowser::SrcData::refreshAllData" body line 3)
+    invoked from within
+"refreshAllData"
+    ("!state.reinvoke" arm line 6)
+    invoked from within
+"switch $info(event) {
+        !state.reinvoke {
+            #
+            # When reinvoke happens, we have to refresh all the
+            # buffers an..."
+    (object "::srcData2" method "::SrcBrowser::SrcData::_stateEventCB" body line 7)
+    invoked from within
+"::srcData2 _stateEventCB event !state.reinvoke handle @public@44"
+    (in namespace inscope "::SrcBrowser::SrcData" script line 1)
+    invoked from within
+"namespace inscope ::SrcBrowser::SrcData {::srcData2 _stateEventCB} event !state.reinvoke handle @public@44"
+ 
+*** Message Type: error ***
+When: Thu Oct 01 20:00:08 MDT 2015
+could not read "/home/arnabd/work/Interconnect/rtl/Arbiter.sv": no such file or directory
+    while executing
+"file mtime $file"
+    (object "::srcData3" method "::SrcBrowser::SrcData::isModified" body line 7)
+    invoked from within
+"isModified """
+    (object "::srcData3" method "::SrcBrowser::SrcData::refreshAllData" body line 3)
+    invoked from within
+"refreshAllData"
+    ("!state.reinvoke" arm line 6)
+    invoked from within
+"switch $info(event) {
+        !state.reinvoke {
+            #
+            # When reinvoke happens, we have to refresh all the
+            # buffers an..."
+    (object "::srcData3" method "::SrcBrowser::SrcData::_stateEventCB" body line 7)
+    invoked from within
+"::srcData3 _stateEventCB event !state.reinvoke handle @public@44"
+    (in namespace inscope "::SrcBrowser::SrcData" script line 1)
+    invoked from within
+"namespace inscope ::SrcBrowser::SrcData {::srcData3 _stateEventCB} event !state.reinvoke handle @public@44"
+ 
+*** Message Type: error ***
+When: Thu Oct 01 20:00:08 MDT 2015
+could not read "/home/arnabd/work/Interconnect/rtl/Demux.sv": no such file or directory
+    while executing
+"file mtime $file"
+    (object "::srcData4" method "::SrcBrowser::SrcData::isModified" body line 7)
+    invoked from within
+"isModified """
+    (object "::srcData4" method "::SrcBrowser::SrcData::refreshAllData" body line 3)
+    invoked from within
+"refreshAllData"
+    ("!state.reinvoke" arm line 6)
+    invoked from within
+"switch $info(event) {
+        !state.reinvoke {
+            #
+            # When reinvoke happens, we have to refresh all the
+            # buffers an..."
+    (object "::srcData4" method "::SrcBrowser::SrcData::_stateEventCB" body line 7)
+    invoked from within
+"::srcData4 _stateEventCB event !state.reinvoke handle @public@44"
+    (in namespace inscope "::SrcBrowser::SrcData" script line 1)
+    invoked from within
+"namespace inscope ::SrcBrowser::SrcData {::srcData4 _stateEventCB} event !state.reinvoke handle @public@44"
+ 
+*** Message Type: info ***
+When: Thu Oct 01 20:00:14 MDT 2015
+SimVision Exit.
+ 

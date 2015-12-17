@@ -1,0 +1,11 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-sv
+-INCDIR
+../../rtl_tp32toICache4kb_wiredOR/
+-INCDIR
+../testbench/
+-INCDIR
+../testbench/test_dir/

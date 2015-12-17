@@ -1,0 +1,2233 @@
+irun(64): 13.10-s003: (c) Copyright 1995-2013 Cadence Design Systems, Inc.
+TOOL:	irun(64)	13.10-s003: Started on Dec 16, 2015 at 19:41:08 MST
+irun
+	-sv
+	-incdir ../../rtl_tp32toICache4kb_wiredOR/
+	-incdir ../testbench/
+	-incdir ../testbench/test_dir/
+	../testbench/testbench.sv
+	-input ncsim.tcl
+	-access rwc
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+irun: *W,DLCVAR (/uusoc/facility/cad_common/NCSU/CDK6-F13/cdssetup/cds.lib,1): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+irun: *W,DLCVAR (/uusoc/facility/cad_common/NCSU/CDK6-F13/cdssetup/cds.lib,1): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+irun: *W,DLCVAR (/uusoc/facility/cad_common/NCSU/CDK6-F13/cdssetup/cds.lib,1): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+irun: *W,DLCVAR (/uusoc/facility/cad_common/NCSU/CDK6-F13/cdssetup/cds.lib,1): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+irun: *W,DLCVAR (/uusoc/facility/cad_common/NCSU/CDK6-F13/cdssetup/cds.lib,1): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+irun: *W,DLCVAR (/uusoc/facility/cad_common/NCSU/CDK6-F13/cdssetup/cds.lib,1): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncsim: *W,DLCVAR (/uusoc/facility/cad_common/NCSU/CDK6-F13/cdssetup/cds.lib,1): cds.lib Invalid environment variable ''.
+Loading snapshot worklib.testbench:sv .................... Done
+SVSEED default: 1
+ncsim> source /uusoc/facility/cad_tools/Cadence/INCISIV-F13/tools/inca/files/ncsimrc
+ncsim> database -open waves  -shm -into waves.shm -default
+Created default SHM database waves
+ncsim> #probe -create top -depth all -vcd -waveform
+ncsim> probe -create testbench -depth all -shm -waveform
+Created probe 1
+ncsim> #probe -create testbench.u_monitor -depth all -shm -waveform
+ncsim> #probe -create top -memories -all testbench.u_spi_slave.mem -shm -waveform
+ncsim> #probe -create top -memories -all top.u_simple_spi_top.rfifo.mem top.u_simple_spi_top.wfifo.mem -shm -waveform
+ncsim> #probe -create top -memories -all top.u_monitor.read_fifo top.u_monitor.write_fifo -shm -waveform
+ncsim> run 
+MSG: ROOT_TEST_ADMIN OBJECT ALIVE
+RAND_DATA =           2
+RANDOM_OBJECT_ID : =           2                 450
+INTERCONNECT_SINGLE_BANK_MULTIPLE_REQUEST_TEST -> Time =>                  450
+GEN_COUNTER =           1                 750
+TESTBENCH: DIFF_COUNTER =           1                 750
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>                  950
+MSG: Sending Access Request from CORE_6 : time =>                  950
+TESTBENCH: DIFF_COUNTER =           0                 950
+DAMN_J =           5                1050
+LOCAL_INDEX =           7                1050
+local_priority_reg =           0                1050
+DAMN_J =           0                1050
+GEN_COUNTER =           2               20950
+TESTBENCH: DIFF_COUNTER =           1               20950
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>                21150
+MSG: Sending Access Request from CORE_6 : time =>                21150
+MSG: Sending Access Request from CORE_10 : time =>                21150
+MSG: Sending Access Request from CORE_23 : time =>                21150
+TESTBENCH: DIFF_COUNTER =           0               21150
+DAMN_J =          30               21250
+DAMN_J =          30               21250
+LOCAL_INDEX =           7               21250
+local_priority_reg =           7               21250
+DAMN_J =           5               21250
+DAMN_J =           9               21250
+DAMN_J =           0               21250
+DAMN_J =          15               21650
+DAMN_J =          15               21650
+GEN_COUNTER =           3               41150
+TESTBENCH: DIFF_COUNTER =           1               41150
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>                41350
+MSG: Sending Access Request from CORE_6 : time =>                41350
+MSG: Sending Access Request from CORE_10 : time =>                41350
+MSG: Sending Access Request from CORE_18 : time =>                41350
+MSG: Sending Access Request from CORE_23 : time =>                41350
+MSG: Sending Access Request from CORE_31 : time =>                41350
+TESTBENCH: DIFF_COUNTER =           0               41350
+DAMN_J =          30               41450
+DAMN_J =          13               41450
+DAMN_J =          30               41450
+DAMN_J =          30               41450
+DAMN_J =           9               41450
+DAMN_J =          17               41450
+DAMN_J =           5               41450
+LOCAL_INDEX =           7               41450
+local_priority_reg =           0               41450
+DAMN_J =           0               41450
+DAMN_J =          11               41850
+DAMN_J =          11               41850
+GEN_COUNTER =           4               61350
+TESTBENCH: DIFF_COUNTER =           1               61350
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>                61550
+MSG: Sending Access Request from CORE_4 : time =>                61550
+MSG: Sending Access Request from CORE_6 : time =>                61550
+MSG: Sending Access Request from CORE_10 : time =>                61550
+MSG: Sending Access Request from CORE_18 : time =>                61550
+MSG: Sending Access Request from CORE_23 : time =>                61550
+MSG: Sending Access Request from CORE_25 : time =>                61550
+MSG: Sending Access Request from CORE_31 : time =>                61550
+TESTBENCH: DIFF_COUNTER =           0               61550
+DAMN_J =          30               61650
+DAMN_J =          30               61650
+LOCAL_INDEX =           7               61650
+local_priority_reg =           7               61650
+DAMN_J =          17               61650
+DAMN_J =          30               61650
+DAMN_J =          30               61650
+DAMN_J =          24               61650
+DAMN_J =           7               61650
+DAMN_J =          17               61650
+DAMN_J =          30               61650
+DAMN_J =          30               61650
+LOCAL_INDEX =           7               61650
+local_priority_reg =           7               61650
+DAMN_J =           3               61650
+DAMN_J =          30               61650
+DAMN_J =          19               62250
+DAMN_J =          19               62250
+GEN_COUNTER =           5               81550
+TESTBENCH: DIFF_COUNTER =           1               81550
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>                81750
+MSG: Sending Access Request from CORE_4 : time =>                81750
+MSG: Sending Access Request from CORE_6 : time =>                81750
+MSG: Sending Access Request from CORE_10 : time =>                81750
+MSG: Sending Access Request from CORE_18 : time =>                81750
+MSG: Sending Access Request from CORE_19 : time =>                81750
+MSG: Sending Access Request from CORE_23 : time =>                81750
+MSG: Sending Access Request from CORE_25 : time =>                81750
+MSG: Sending Access Request from CORE_26 : time =>                81750
+MSG: Sending Access Request from CORE_31 : time =>                81750
+TESTBENCH: DIFF_COUNTER =           0               81750
+DAMN_J =          30               81850
+DAMN_J =          30               81850
+DAMN_J =          30               81850
+LOCAL_INDEX =           7               81850
+local_priority_reg =           7               81850
+DAMN_J =           9               81850
+DAMN_J =          30               81850
+DAMN_J =          30               81850
+DAMN_J =          30               81850
+DAMN_J =          23               81850
+DAMN_J =          23               81850
+DAMN_J =          28               81850
+DAMN_J =           0               81850
+DAMN_J =          12               81850
+DAMN_J =          17               81850
+DAMN_J =          22               81850
+DAMN_J =           0               81850
+LOCAL_INDEX =           7               81850
+local_priority_reg =           5               81850
+DAMN_J =          21               81850
+DAMN_J =           3               82350
+DAMN_J =           3               82350
+GEN_COUNTER =           6              101750
+TESTBENCH: DIFF_COUNTER =           1              101750
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               101950
+MSG: Sending Access Request from CORE_4 : time =>               101950
+MSG: Sending Access Request from CORE_5 : time =>               101950
+MSG: Sending Access Request from CORE_6 : time =>               101950
+MSG: Sending Access Request from CORE_10 : time =>               101950
+MSG: Sending Access Request from CORE_18 : time =>               101950
+MSG: Sending Access Request from CORE_19 : time =>               101950
+MSG: Sending Access Request from CORE_20 : time =>               101950
+MSG: Sending Access Request from CORE_23 : time =>               101950
+MSG: Sending Access Request from CORE_25 : time =>               101950
+MSG: Sending Access Request from CORE_26 : time =>               101950
+MSG: Sending Access Request from CORE_31 : time =>               101950
+TESTBENCH: DIFF_COUNTER =           0              101950
+DAMN_J =          30              102050
+DAMN_J =          25              102050
+DAMN_J =          30              102050
+LOCAL_INDEX =           7              102050
+local_priority_reg =           7              102050
+DAMN_J =          30              102050
+DAMN_J =          30              102050
+DAMN_J =          30              102050
+DAMN_J =          30              102050
+DAMN_J =          30              102050
+DAMN_J =          30              102050
+DAMN_J =          28              102050
+DAMN_J =          17              102050
+DAMN_J =          11              102050
+DAMN_J =          17              102050
+DAMN_J =          24              102050
+DAMN_J =          17              102050
+DAMN_J =           6              102050
+DAMN_J =           0              102050
+DAMN_J =           2              102450
+DAMN_J =           2              102450
+DAMN_J =          18              102550
+DAMN_J =          18              102550
+DAMN_J =           0              102650
+DAMN_J =           0              102650
+GEN_COUNTER =           7              121950
+TESTBENCH: DIFF_COUNTER =           1              121950
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               122150
+MSG: Sending Access Request from CORE_4 : time =>               122150
+MSG: Sending Access Request from CORE_5 : time =>               122150
+MSG: Sending Access Request from CORE_6 : time =>               122150
+MSG: Sending Access Request from CORE_10 : time =>               122150
+MSG: Sending Access Request from CORE_13 : time =>               122150
+MSG: Sending Access Request from CORE_15 : time =>               122150
+MSG: Sending Access Request from CORE_18 : time =>               122150
+MSG: Sending Access Request from CORE_19 : time =>               122150
+MSG: Sending Access Request from CORE_20 : time =>               122150
+MSG: Sending Access Request from CORE_23 : time =>               122150
+MSG: Sending Access Request from CORE_25 : time =>               122150
+MSG: Sending Access Request from CORE_26 : time =>               122150
+MSG: Sending Access Request from CORE_31 : time =>               122150
+TESTBENCH: DIFF_COUNTER =           0              122150
+DAMN_J =          30              122250
+DAMN_J =          26              122250
+DAMN_J =          30              122250
+DAMN_J =          10              122250
+DAMN_J =          30              122250
+DAMN_J =          30              122250
+DAMN_J =          30              122250
+DAMN_J =          28              122250
+DAMN_J =          30              122250
+DAMN_J =           6              122250
+DAMN_J =          13              122250
+DAMN_J =          11              122250
+LOCAL_INDEX =           7              122250
+local_priority_reg =          26              122250
+DAMN_J =          11              122250
+DAMN_J =          10              122250
+DAMN_J =           9              122250
+DAMN_J =          17              122250
+DAMN_J =           5              122250
+DAMN_J =           0              122250
+DAMN_J =           9              122250
+DAMN_J =           7              122650
+DAMN_J =           7              122650
+DAMN_J =           3              122750
+DAMN_J =           3              122750
+DAMN_J =           9              123150
+DAMN_J =           9              123150
+GEN_COUNTER =           8              142150
+TESTBENCH: DIFF_COUNTER =           1              142150
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               142350
+MSG: Sending Access Request from CORE_4 : time =>               142350
+MSG: Sending Access Request from CORE_5 : time =>               142350
+MSG: Sending Access Request from CORE_6 : time =>               142350
+MSG: Sending Access Request from CORE_8 : time =>               142350
+MSG: Sending Access Request from CORE_10 : time =>               142350
+MSG: Sending Access Request from CORE_13 : time =>               142350
+MSG: Sending Access Request from CORE_15 : time =>               142350
+MSG: Sending Access Request from CORE_18 : time =>               142350
+MSG: Sending Access Request from CORE_19 : time =>               142350
+MSG: Sending Access Request from CORE_20 : time =>               142350
+MSG: Sending Access Request from CORE_22 : time =>               142350
+MSG: Sending Access Request from CORE_23 : time =>               142350
+MSG: Sending Access Request from CORE_25 : time =>               142350
+MSG: Sending Access Request from CORE_26 : time =>               142350
+MSG: Sending Access Request from CORE_31 : time =>               142350
+TESTBENCH: DIFF_COUNTER =           0              142350
+DAMN_J =          21              142450
+DAMN_J =          14              142450
+DAMN_J =          30              142450
+DAMN_J =          30              142450
+LOCAL_INDEX =           7              142450
+local_priority_reg =           7              142450
+DAMN_J =          30              142450
+DAMN_J =          30              142450
+DAMN_J =          30              142450
+DAMN_J =          30              142450
+DAMN_J =          30              142450
+DAMN_J =          30              142450
+DAMN_J =          30              142450
+DAMN_J =           5              142450
+LOCAL_INDEX =           7              142450
+local_priority_reg =          32              142450
+DAMN_J =          14              142450
+DAMN_J =          18              142450
+DAMN_J =           0              142450
+DAMN_J =           7              142450
+DAMN_J =          20              142450
+DAMN_J =          24              142450
+DAMN_J =          10              142450
+DAMN_J =           8              142450
+DAMN_J =          18              142450
+DAMN_J =           2              142450
+DAMN_J =          28              142850
+DAMN_J =           3              142850
+DAMN_J =          28              142850
+DAMN_J =           3              142850
+DAMN_J =           3              142950
+DAMN_J =           5              142950
+DAMN_J =           5              142950
+DAMN_J =           3              142950
+DAMN_J =           2              143550
+DAMN_J =           2              143550
+GEN_COUNTER =           9              162350
+TESTBENCH: DIFF_COUNTER =           1              162350
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               162550
+MSG: Sending Access Request from CORE_4 : time =>               162550
+MSG: Sending Access Request from CORE_5 : time =>               162550
+MSG: Sending Access Request from CORE_6 : time =>               162550
+MSG: Sending Access Request from CORE_8 : time =>               162550
+MSG: Sending Access Request from CORE_10 : time =>               162550
+MSG: Sending Access Request from CORE_11 : time =>               162550
+MSG: Sending Access Request from CORE_13 : time =>               162550
+MSG: Sending Access Request from CORE_15 : time =>               162550
+MSG: Sending Access Request from CORE_16 : time =>               162550
+MSG: Sending Access Request from CORE_18 : time =>               162550
+MSG: Sending Access Request from CORE_19 : time =>               162550
+MSG: Sending Access Request from CORE_20 : time =>               162550
+MSG: Sending Access Request from CORE_22 : time =>               162550
+MSG: Sending Access Request from CORE_23 : time =>               162550
+MSG: Sending Access Request from CORE_25 : time =>               162550
+MSG: Sending Access Request from CORE_26 : time =>               162550
+MSG: Sending Access Request from CORE_31 : time =>               162550
+TESTBENCH: DIFF_COUNTER =           0              162550
+DAMN_J =          30              162650
+DAMN_J =          21              162650
+DAMN_J =          25              162650
+DAMN_J =          30              162650
+LOCAL_INDEX =           7              162650
+local_priority_reg =           7              162650
+DAMN_J =          23              162650
+DAMN_J =          30              162650
+DAMN_J =          30              162650
+DAMN_J =          30              162650
+DAMN_J =          30              162650
+DAMN_J =           0              162650
+DAMN_J =          30              162650
+DAMN_J =          15              162650
+DAMN_J =           6              162650
+DAMN_J =           7              162650
+DAMN_J =          17              162650
+DAMN_J =           3              162650
+DAMN_J =          12              162650
+DAMN_J =          13              162650
+DAMN_J =          25              162650
+DAMN_J =          21              162650
+DAMN_J =           1              162650
+DAMN_J =          11              163050
+DAMN_J =           6              163050
+DAMN_J =           0              163050
+DAMN_J =           0              163050
+DAMN_J =           6              163050
+DAMN_J =          11              163050
+DAMN_J =           2              163150
+DAMN_J =           2              163150
+DAMN_J =           3              163450
+LOCAL_INDEX =           7              163450
+local_priority_reg =           2              163450
+DAMN_J =           3              163450
+LOCAL_INDEX =           7              163450
+local_priority_reg =           2              163450
+DAMN_J =           0              163550
+DAMN_J =           0              163550
+DAMN_J =           6              163650
+DAMN_J =           6              163650
+DAMN_J =           2              164250
+DAMN_J =           2              164250
+GEN_COUNTER =          10              182550
+TESTBENCH: DIFF_COUNTER =           1              182550
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               182750
+MSG: Sending Access Request from CORE_4 : time =>               182750
+MSG: Sending Access Request from CORE_5 : time =>               182750
+MSG: Sending Access Request from CORE_6 : time =>               182750
+MSG: Sending Access Request from CORE_8 : time =>               182750
+MSG: Sending Access Request from CORE_10 : time =>               182750
+MSG: Sending Access Request from CORE_11 : time =>               182750
+MSG: Sending Access Request from CORE_13 : time =>               182750
+MSG: Sending Access Request from CORE_15 : time =>               182750
+MSG: Sending Access Request from CORE_16 : time =>               182750
+MSG: Sending Access Request from CORE_17 : time =>               182750
+MSG: Sending Access Request from CORE_18 : time =>               182750
+MSG: Sending Access Request from CORE_19 : time =>               182750
+MSG: Sending Access Request from CORE_20 : time =>               182750
+MSG: Sending Access Request from CORE_22 : time =>               182750
+MSG: Sending Access Request from CORE_23 : time =>               182750
+MSG: Sending Access Request from CORE_25 : time =>               182750
+MSG: Sending Access Request from CORE_26 : time =>               182750
+MSG: Sending Access Request from CORE_31 : time =>               182750
+TESTBENCH: DIFF_COUNTER =           0              182750
+DAMN_J =          17              182850
+DAMN_J =          30              182850
+DAMN_J =          30              182850
+DAMN_J =          16              182850
+DAMN_J =          30              182850
+DAMN_J =          15              182850
+DAMN_J =          26              182850
+DAMN_J =          30              182850
+DAMN_J =          30              182850
+DAMN_J =          30              182850
+DAMN_J =           1              182850
+DAMN_J =           0              182850
+DAMN_J =          24              182850
+DAMN_J =          15              182850
+DAMN_J =           8              182850
+DAMN_J =           6              182850
+DAMN_J =           4              182850
+LOCAL_INDEX =           7              182850
+local_priority_reg =           1              182850
+DAMN_J =          16              182850
+DAMN_J =           2              182850
+DAMN_J =           7              183250
+DAMN_J =           0              183250
+DAMN_J =           0              183250
+DAMN_J =           7              183250
+DAMN_J =          14              183350
+DAMN_J =          14              183350
+DAMN_J =           2              183450
+DAMN_J =           4              183450
+DAMN_J =           2              183450
+DAMN_J =           4              183450
+DAMN_J =          19              183750
+DAMN_J =          10              183750
+DAMN_J =          10              183750
+DAMN_J =          19              183750
+DAMN_J =          17              183850
+DAMN_J =          17              183850
+DAMN_J =          19              184150
+DAMN_J =          19              184150
+DAMN_J =          10              184550
+DAMN_J =          10              184550
+GEN_COUNTER =          11              202750
+TESTBENCH: DIFF_COUNTER =           1              202750
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               202950
+MSG: Sending Access Request from CORE_4 : time =>               202950
+MSG: Sending Access Request from CORE_5 : time =>               202950
+MSG: Sending Access Request from CORE_6 : time =>               202950
+MSG: Sending Access Request from CORE_8 : time =>               202950
+MSG: Sending Access Request from CORE_9 : time =>               202950
+MSG: Sending Access Request from CORE_10 : time =>               202950
+MSG: Sending Access Request from CORE_11 : time =>               202950
+MSG: Sending Access Request from CORE_13 : time =>               202950
+MSG: Sending Access Request from CORE_15 : time =>               202950
+MSG: Sending Access Request from CORE_16 : time =>               202950
+MSG: Sending Access Request from CORE_17 : time =>               202950
+MSG: Sending Access Request from CORE_18 : time =>               202950
+MSG: Sending Access Request from CORE_19 : time =>               202950
+MSG: Sending Access Request from CORE_20 : time =>               202950
+MSG: Sending Access Request from CORE_22 : time =>               202950
+MSG: Sending Access Request from CORE_23 : time =>               202950
+MSG: Sending Access Request from CORE_25 : time =>               202950
+MSG: Sending Access Request from CORE_26 : time =>               202950
+MSG: Sending Access Request from CORE_31 : time =>               202950
+TESTBENCH: DIFF_COUNTER =           0              202950
+DAMN_J =          26              203050
+DAMN_J =          30              203050
+DAMN_J =          30              203050
+LOCAL_INDEX =           7              203050
+local_priority_reg =           7              203050
+DAMN_J =          15              203050
+DAMN_J =          30              203050
+DAMN_J =           0              203050
+DAMN_J =          14              203050
+DAMN_J =           5              203050
+DAMN_J =          30              203050
+DAMN_J =          14              203050
+DAMN_J =          29              203050
+DAMN_J =           8              203050
+DAMN_J =          15              203050
+DAMN_J =          18              203050
+DAMN_J =           7              203050
+DAMN_J =          12              203050
+DAMN_J =          12              203050
+DAMN_J =           2              203050
+DAMN_J =          22              203050
+DAMN_J =           7              203450
+DAMN_J =          11              203450
+DAMN_J =           8              203450
+DAMN_J =           5              203450
+DAMN_J =           5              203450
+DAMN_J =           7              203450
+DAMN_J =          11              203450
+DAMN_J =           8              203450
+DAMN_J =           3              203550
+DAMN_J =          14              203550
+DAMN_J =           2              203550
+DAMN_J =          10              203550
+DAMN_J =           3              203550
+DAMN_J =          14              203550
+DAMN_J =           2              203550
+DAMN_J =          10              203550
+DAMN_J =           3              204050
+LOCAL_INDEX =           7              204050
+local_priority_reg =           2              204050
+DAMN_J =          11              204050
+DAMN_J =          11              204050
+DAMN_J =           3              204050
+LOCAL_INDEX =           7              204050
+local_priority_reg =           2              204050
+GEN_COUNTER =          12              222950
+TESTBENCH: DIFF_COUNTER =           1              222950
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               223150
+MSG: Sending Access Request from CORE_4 : time =>               223150
+MSG: Sending Access Request from CORE_5 : time =>               223150
+MSG: Sending Access Request from CORE_6 : time =>               223150
+MSG: Sending Access Request from CORE_8 : time =>               223150
+MSG: Sending Access Request from CORE_9 : time =>               223150
+MSG: Sending Access Request from CORE_10 : time =>               223150
+MSG: Sending Access Request from CORE_11 : time =>               223150
+MSG: Sending Access Request from CORE_13 : time =>               223150
+MSG: Sending Access Request from CORE_15 : time =>               223150
+MSG: Sending Access Request from CORE_16 : time =>               223150
+MSG: Sending Access Request from CORE_17 : time =>               223150
+MSG: Sending Access Request from CORE_18 : time =>               223150
+MSG: Sending Access Request from CORE_19 : time =>               223150
+MSG: Sending Access Request from CORE_20 : time =>               223150
+MSG: Sending Access Request from CORE_22 : time =>               223150
+MSG: Sending Access Request from CORE_23 : time =>               223150
+MSG: Sending Access Request from CORE_25 : time =>               223150
+MSG: Sending Access Request from CORE_26 : time =>               223150
+MSG: Sending Access Request from CORE_31 : time =>               223150
+TESTBENCH: DIFF_COUNTER =           0              223150
+DAMN_J =          12              223250
+DAMN_J =          25              223250
+DAMN_J =          26              223250
+DAMN_J =          23              223250
+DAMN_J =          14              223250
+DAMN_J =          18              223250
+DAMN_J =           7              223250
+DAMN_J =          21              223250
+DAMN_J =          30              223250
+DAMN_J =          30              223250
+DAMN_J =           2              223250
+DAMN_J =           9              223250
+DAMN_J =           5              223250
+DAMN_J =           7              223250
+DAMN_J =           5              223250
+DAMN_J =           1              223250
+DAMN_J =          19              223250
+DAMN_J =           7              223250
+DAMN_J =           5              223250
+DAMN_J =          25              223250
+DAMN_J =          22              223250
+DAMN_J =           2              223650
+DAMN_J =           2              223650
+DAMN_J =           2              223650
+DAMN_J =           2              223650
+DAMN_J =           5              223750
+DAMN_J =           5              223750
+DAMN_J =           8              223850
+DAMN_J =           5              223850
+DAMN_J =           3              223850
+DAMN_J =           8              223850
+DAMN_J =           3              223850
+DAMN_J =           5              223850
+DAMN_J =           5              224250
+DAMN_J =           5              224250
+DAMN_J =           3              224350
+DAMN_J =           3              224350
+DAMN_J =           0              224750
+DAMN_J =           0              224750
+GEN_COUNTER =          13              243150
+TESTBENCH: DIFF_COUNTER =           1              243150
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               243350
+MSG: Sending Access Request from CORE_4 : time =>               243350
+MSG: Sending Access Request from CORE_5 : time =>               243350
+MSG: Sending Access Request from CORE_6 : time =>               243350
+MSG: Sending Access Request from CORE_8 : time =>               243350
+MSG: Sending Access Request from CORE_9 : time =>               243350
+MSG: Sending Access Request from CORE_10 : time =>               243350
+MSG: Sending Access Request from CORE_11 : time =>               243350
+MSG: Sending Access Request from CORE_12 : time =>               243350
+MSG: Sending Access Request from CORE_13 : time =>               243350
+MSG: Sending Access Request from CORE_15 : time =>               243350
+MSG: Sending Access Request from CORE_16 : time =>               243350
+MSG: Sending Access Request from CORE_17 : time =>               243350
+MSG: Sending Access Request from CORE_18 : time =>               243350
+MSG: Sending Access Request from CORE_19 : time =>               243350
+MSG: Sending Access Request from CORE_20 : time =>               243350
+MSG: Sending Access Request from CORE_22 : time =>               243350
+MSG: Sending Access Request from CORE_23 : time =>               243350
+MSG: Sending Access Request from CORE_25 : time =>               243350
+MSG: Sending Access Request from CORE_26 : time =>               243350
+MSG: Sending Access Request from CORE_27 : time =>               243350
+MSG: Sending Access Request from CORE_31 : time =>               243350
+TESTBENCH: DIFF_COUNTER =           0              243350
+DAMN_J =          26              243450
+DAMN_J =          26              243450
+DAMN_J =          16              243450
+DAMN_J =          20              243450
+DAMN_J =          16              243450
+DAMN_J =          25              243450
+DAMN_J =          30              243450
+DAMN_J =          30              243450
+DAMN_J =          30              243450
+DAMN_J =          30              243450
+DAMN_J =          30              243450
+DAMN_J =           8              243450
+DAMN_J =           7              243450
+DAMN_J =           5              243450
+DAMN_J =           8              243450
+DAMN_J =          26              243450
+DAMN_J =           9              243450
+DAMN_J =          25              243450
+DAMN_J =          15              243450
+DAMN_J =          26              243450
+DAMN_J =          20              243450
+DAMN_J =           5              243450
+DAMN_J =          24              243450
+DAMN_J =           3              243850
+DAMN_J =           3              243850
+DAMN_J =          14              243950
+DAMN_J =           1              243950
+DAMN_J =          14              243950
+DAMN_J =           1              243950
+DAMN_J =           3              244050
+DAMN_J =           8              244050
+DAMN_J =          11              244050
+DAMN_J =           9              244050
+DAMN_J =           8              244050
+DAMN_J =           9              244050
+DAMN_J =           3              244050
+DAMN_J =          11              244050
+DAMN_J =           3              244550
+DAMN_J =           0              244550
+DAMN_J =           0              244550
+DAMN_J =           3              244550
+DAMN_J =           0              245150
+DAMN_J =           0              245150
+GEN_COUNTER =          14              263350
+TESTBENCH: DIFF_COUNTER =           1              263350
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               263550
+MSG: Sending Access Request from CORE_4 : time =>               263550
+MSG: Sending Access Request from CORE_5 : time =>               263550
+MSG: Sending Access Request from CORE_6 : time =>               263550
+MSG: Sending Access Request from CORE_8 : time =>               263550
+MSG: Sending Access Request from CORE_9 : time =>               263550
+MSG: Sending Access Request from CORE_10 : time =>               263550
+MSG: Sending Access Request from CORE_11 : time =>               263550
+MSG: Sending Access Request from CORE_12 : time =>               263550
+MSG: Sending Access Request from CORE_13 : time =>               263550
+MSG: Sending Access Request from CORE_15 : time =>               263550
+MSG: Sending Access Request from CORE_16 : time =>               263550
+MSG: Sending Access Request from CORE_17 : time =>               263550
+MSG: Sending Access Request from CORE_18 : time =>               263550
+MSG: Sending Access Request from CORE_19 : time =>               263550
+MSG: Sending Access Request from CORE_20 : time =>               263550
+MSG: Sending Access Request from CORE_22 : time =>               263550
+MSG: Sending Access Request from CORE_23 : time =>               263550
+MSG: Sending Access Request from CORE_25 : time =>               263550
+MSG: Sending Access Request from CORE_26 : time =>               263550
+MSG: Sending Access Request from CORE_27 : time =>               263550
+MSG: Sending Access Request from CORE_31 : time =>               263550
+TESTBENCH: DIFF_COUNTER =           0              263550
+DAMN_J =          14              263650
+DAMN_J =          10              263650
+DAMN_J =          27              263650
+DAMN_J =          20              263650
+DAMN_J =          17              263650
+DAMN_J =          25              263650
+DAMN_J =          30              263650
+DAMN_J =          30              263650
+DAMN_J =          25              263650
+DAMN_J =          30              263650
+DAMN_J =          30              263650
+DAMN_J =          30              263650
+DAMN_J =           1              263650
+DAMN_J =           9              263650
+DAMN_J =           3              263650
+DAMN_J =          13              263650
+DAMN_J =           0              263650
+DAMN_J =          29              263650
+DAMN_J =           2              263650
+DAMN_J =          20              263650
+DAMN_J =          22              263650
+DAMN_J =          28              263650
+DAMN_J =          17              263650
+DAMN_J =          13              264050
+LOCAL_INDEX =           7              264050
+local_priority_reg =          24              264050
+DAMN_J =          13              264050
+LOCAL_INDEX =           7              264050
+local_priority_reg =          24              264050
+DAMN_J =           8              264150
+DAMN_J =           1              264150
+DAMN_J =           3              264150
+DAMN_J =           1              264150
+DAMN_J =           3              264150
+DAMN_J =           8              264150
+DAMN_J =          13              264250
+DAMN_J =           5              264250
+DAMN_J =           9              264250
+DAMN_J =          13              264250
+DAMN_J =           5              264250
+DAMN_J =           9              264250
+DAMN_J =           5              264650
+DAMN_J =           5              264650
+DAMN_J =           1              264750
+DAMN_J =           1              264750
+DAMN_J =           0              265250
+DAMN_J =           0              265250
+DAMN_J =          13              265850
+DAMN_J =          13              265850
+GEN_COUNTER =          15              283550
+TESTBENCH: DIFF_COUNTER =           1              283550
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               283750
+MSG: Sending Access Request from CORE_4 : time =>               283750
+MSG: Sending Access Request from CORE_5 : time =>               283750
+MSG: Sending Access Request from CORE_6 : time =>               283750
+MSG: Sending Access Request from CORE_8 : time =>               283750
+MSG: Sending Access Request from CORE_9 : time =>               283750
+MSG: Sending Access Request from CORE_10 : time =>               283750
+MSG: Sending Access Request from CORE_11 : time =>               283750
+MSG: Sending Access Request from CORE_12 : time =>               283750
+MSG: Sending Access Request from CORE_13 : time =>               283750
+MSG: Sending Access Request from CORE_15 : time =>               283750
+MSG: Sending Access Request from CORE_16 : time =>               283750
+MSG: Sending Access Request from CORE_17 : time =>               283750
+MSG: Sending Access Request from CORE_18 : time =>               283750
+MSG: Sending Access Request from CORE_19 : time =>               283750
+MSG: Sending Access Request from CORE_20 : time =>               283750
+MSG: Sending Access Request from CORE_22 : time =>               283750
+MSG: Sending Access Request from CORE_23 : time =>               283750
+MSG: Sending Access Request from CORE_25 : time =>               283750
+MSG: Sending Access Request from CORE_26 : time =>               283750
+MSG: Sending Access Request from CORE_27 : time =>               283750
+MSG: Sending Access Request from CORE_29 : time =>               283750
+MSG: Sending Access Request from CORE_31 : time =>               283750
+TESTBENCH: DIFF_COUNTER =           0              283750
+DAMN_J =           1              283850
+DAMN_J =          20              283850
+DAMN_J =          15              283850
+DAMN_J =          30              283850
+DAMN_J =          19              283850
+DAMN_J =          15              283850
+DAMN_J =          30              283850
+DAMN_J =          20              283850
+DAMN_J =          30              283850
+DAMN_J =          30              283850
+DAMN_J =          27              283850
+DAMN_J =           5              283850
+DAMN_J =           5              283850
+DAMN_J =           7              283850
+DAMN_J =          13              283850
+DAMN_J =           8              283850
+DAMN_J =          10              283850
+DAMN_J =          15              283850
+DAMN_J =          10              283850
+DAMN_J =           2              283850
+DAMN_J =           0              284250
+DAMN_J =           1              284250
+DAMN_J =           1              284250
+DAMN_J =           0              284250
+DAMN_J =           7              284350
+DAMN_J =          10              284350
+DAMN_J =          22              284350
+DAMN_J =          22              284350
+DAMN_J =           7              284350
+DAMN_J =          10              284350
+DAMN_J =           7              284450
+DAMN_J =           5              284450
+DAMN_J =           5              284450
+DAMN_J =           7              284450
+DAMN_J =           5              284750
+DAMN_J =           5              284750
+DAMN_J =          11              284850
+DAMN_J =           3              284850
+DAMN_J =           3              284850
+DAMN_J =          11              284850
+DAMN_J =           1              284950
+DAMN_J =           1              284950
+DAMN_J =          12              285050
+DAMN_J =          12              285050
+DAMN_J =           5              285150
+DAMN_J =           5              285150
+DAMN_J =          17              285650
+DAMN_J =          17              285650
+GEN_COUNTER =          16              303750
+TESTBENCH: DIFF_COUNTER =           1              303750
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               303950
+MSG: Sending Access Request from CORE_4 : time =>               303950
+MSG: Sending Access Request from CORE_5 : time =>               303950
+MSG: Sending Access Request from CORE_6 : time =>               303950
+MSG: Sending Access Request from CORE_8 : time =>               303950
+MSG: Sending Access Request from CORE_9 : time =>               303950
+MSG: Sending Access Request from CORE_10 : time =>               303950
+MSG: Sending Access Request from CORE_11 : time =>               303950
+MSG: Sending Access Request from CORE_12 : time =>               303950
+MSG: Sending Access Request from CORE_13 : time =>               303950
+MSG: Sending Access Request from CORE_15 : time =>               303950
+MSG: Sending Access Request from CORE_16 : time =>               303950
+MSG: Sending Access Request from CORE_17 : time =>               303950
+MSG: Sending Access Request from CORE_18 : time =>               303950
+MSG: Sending Access Request from CORE_19 : time =>               303950
+MSG: Sending Access Request from CORE_20 : time =>               303950
+MSG: Sending Access Request from CORE_22 : time =>               303950
+MSG: Sending Access Request from CORE_23 : time =>               303950
+MSG: Sending Access Request from CORE_25 : time =>               303950
+MSG: Sending Access Request from CORE_26 : time =>               303950
+MSG: Sending Access Request from CORE_27 : time =>               303950
+MSG: Sending Access Request from CORE_29 : time =>               303950
+MSG: Sending Access Request from CORE_31 : time =>               303950
+TESTBENCH: DIFF_COUNTER =           0              303950
+DAMN_J =           4              304050
+DAMN_J =          18              304050
+DAMN_J =          30              304050
+DAMN_J =          18              304050
+DAMN_J =           6              304050
+DAMN_J =          15              304050
+DAMN_J =           7              304050
+DAMN_J =          18              304050
+DAMN_J =          30              304050
+DAMN_J =           9              304050
+DAMN_J =          11              304050
+DAMN_J =          16              304050
+DAMN_J =          28              304050
+DAMN_J =           2              304050
+DAMN_J =          16              304050
+DAMN_J =           5              304050
+DAMN_J =          13              304050
+DAMN_J =           7              304050
+DAMN_J =          22              304050
+DAMN_J =          10              304050
+DAMN_J =          27              304050
+DAMN_J =           8              304450
+DAMN_J =          14              304450
+DAMN_J =          12              304450
+DAMN_J =           4              304450
+DAMN_J =           2              304450
+DAMN_J =          12              304450
+DAMN_J =           2              304450
+DAMN_J =           8              304450
+DAMN_J =           4              304450
+DAMN_J =          14              304450
+DAMN_J =          31              304550
+DAMN_J =          31              304550
+DAMN_J =           2              304650
+DAMN_J =           2              304650
+DAMN_J =           9              304850
+DAMN_J =           9              304850
+DAMN_J =           5              305050
+LOCAL_INDEX =           7              305050
+local_priority_reg =          32              305050
+DAMN_J =           2              305050
+DAMN_J =          25              305050
+DAMN_J =           5              305050
+LOCAL_INDEX =           7              305050
+local_priority_reg =          32              305050
+DAMN_J =          25              305050
+DAMN_J =           2              305050
+RAND_DATA =           0
+RANDOM_OBJECT_ID : =           0              324150
+RAND_DATA =           2
+RANDOM_OBJECT_ID : =           2              324550
+INTERCONNECT_SINGLE_BANK_MULTIPLE_REQUEST_TEST -> Time =>               324550
+GEN_COUNTER =          17              324850
+TESTBENCH: DIFF_COUNTER =           1              324850
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               325050
+MSG: Sending Access Request from CORE_18 : time =>               325050
+TESTBENCH: DIFF_COUNTER =           0              325050
+DAMN_J =          30              325150
+LOCAL_INDEX =           7              325150
+local_priority_reg =           7              325150
+DAMN_J =          16              325150
+DAMN_J =           4              325150
+DAMN_J =          13              325150
+LOCAL_INDEX =           7              325150
+local_priority_reg =          24              325150
+GEN_COUNTER =          18              345050
+TESTBENCH: DIFF_COUNTER =           1              345050
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               345250
+MSG: Sending Access Request from CORE_7 : time =>               345250
+MSG: Sending Access Request from CORE_18 : time =>               345250
+MSG: Sending Access Request from CORE_25 : time =>               345250
+TESTBENCH: DIFF_COUNTER =           0              345250
+DAMN_J =          30              345350
+LOCAL_INDEX =           7              345350
+local_priority_reg =           7              345350
+DAMN_J =          30              345350
+DAMN_J =          30              345350
+DAMN_J =          13              345350
+DAMN_J =          15              345350
+DAMN_J =          31              345350
+DAMN_J =          16              345350
+LOCAL_INDEX =           7              345350
+local_priority_reg =          21              345350
+GEN_COUNTER =          19              365250
+TESTBENCH: DIFF_COUNTER =           1              365250
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               365450
+MSG: Sending Access Request from CORE_7 : time =>               365450
+MSG: Sending Access Request from CORE_9 : time =>               365450
+MSG: Sending Access Request from CORE_14 : time =>               365450
+MSG: Sending Access Request from CORE_18 : time =>               365450
+MSG: Sending Access Request from CORE_25 : time =>               365450
+TESTBENCH: DIFF_COUNTER =           0              365450
+DAMN_J =           1              365550
+DAMN_J =          30              365550
+DAMN_J =          30              365550
+DAMN_J =          30              365550
+DAMN_J =          14              365550
+DAMN_J =          10              365550
+DAMN_J =          22              365550
+DAMN_J =           8              365550
+DAMN_J =           5              366150
+DAMN_J =           5              366150
+DAMN_J =          11              366650
+LOCAL_INDEX =           7              366650
+local_priority_reg =          26              366650
+DAMN_J =          11              366650
+LOCAL_INDEX =           7              366650
+local_priority_reg =          26              366650
+GEN_COUNTER =          20              385450
+TESTBENCH: DIFF_COUNTER =           1              385450
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               385650
+MSG: Sending Access Request from CORE_7 : time =>               385650
+MSG: Sending Access Request from CORE_9 : time =>               385650
+MSG: Sending Access Request from CORE_14 : time =>               385650
+MSG: Sending Access Request from CORE_18 : time =>               385650
+MSG: Sending Access Request from CORE_19 : time =>               385650
+MSG: Sending Access Request from CORE_20 : time =>               385650
+MSG: Sending Access Request from CORE_25 : time =>               385650
+TESTBENCH: DIFF_COUNTER =           0              385650
+DAMN_J =          10              385750
+DAMN_J =          30              385750
+DAMN_J =          30              385750
+DAMN_J =          30              385750
+DAMN_J =          12              385750
+DAMN_J =           6              385750
+DAMN_J =           0              385750
+DAMN_J =          23              385750
+DAMN_J =          25              385750
+DAMN_J =           0              385750
+DAMN_J =          13              385750
+LOCAL_INDEX =           7              385750
+local_priority_reg =          24              385750
+DAMN_J =          28              386250
+DAMN_J =           9              386250
+DAMN_J =          28              386250
+DAMN_J =           9              386250
+GEN_COUNTER =          21              405650
+TESTBENCH: DIFF_COUNTER =           1              405650
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               405850
+MSG: Sending Access Request from CORE_7 : time =>               405850
+MSG: Sending Access Request from CORE_9 : time =>               405850
+MSG: Sending Access Request from CORE_14 : time =>               405850
+MSG: Sending Access Request from CORE_18 : time =>               405850
+MSG: Sending Access Request from CORE_19 : time =>               405850
+MSG: Sending Access Request from CORE_20 : time =>               405850
+MSG: Sending Access Request from CORE_25 : time =>               405850
+TESTBENCH: DIFF_COUNTER =           0              405850
+DAMN_J =          30              405950
+LOCAL_INDEX =           7              405950
+local_priority_reg =           7              405950
+DAMN_J =           0              405950
+DAMN_J =          19              405950
+DAMN_J =          30              405950
+DAMN_J =          30              405950
+DAMN_J =          30              405950
+DAMN_J =           3              405950
+DAMN_J =           0              405950
+DAMN_J =           2              405950
+DAMN_J =          26              405950
+DAMN_J =           4              405950
+DAMN_J =          22              405950
+DAMN_J =           5              406450
+DAMN_J =           5              406450
+DAMN_J =           1              406550
+DAMN_J =           1              406550
+GEN_COUNTER =          22              425850
+TESTBENCH: DIFF_COUNTER =           1              425850
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               426050
+MSG: Sending Access Request from CORE_7 : time =>               426050
+MSG: Sending Access Request from CORE_9 : time =>               426050
+MSG: Sending Access Request from CORE_10 : time =>               426050
+MSG: Sending Access Request from CORE_14 : time =>               426050
+MSG: Sending Access Request from CORE_18 : time =>               426050
+MSG: Sending Access Request from CORE_19 : time =>               426050
+MSG: Sending Access Request from CORE_20 : time =>               426050
+MSG: Sending Access Request from CORE_25 : time =>               426050
+MSG: Sending Access Request from CORE_28 : time =>               426050
+TESTBENCH: DIFF_COUNTER =           0              426050
+DAMN_J =          27              426150
+DAMN_J =          30              426150
+DAMN_J =          29              426150
+DAMN_J =          30              426150
+DAMN_J =          30              426150
+DAMN_J =          23              426150
+DAMN_J =          30              426150
+DAMN_J =          12              426150
+DAMN_J =           9              426150
+DAMN_J =           7              426150
+DAMN_J =           1              426150
+DAMN_J =           5              426150
+DAMN_J =           7              426150
+DAMN_J =           3              426150
+DAMN_J =          29              426150
+LOCAL_INDEX =           7              426150
+local_priority_reg =           8              426150
+DAMN_J =          31              426650
+DAMN_J =          31              426650
+DAMN_J =          17              426750
+DAMN_J =          17              426750
+GEN_COUNTER =          23              446050
+TESTBENCH: DIFF_COUNTER =           1              446050
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               446250
+MSG: Sending Access Request from CORE_7 : time =>               446250
+MSG: Sending Access Request from CORE_9 : time =>               446250
+MSG: Sending Access Request from CORE_10 : time =>               446250
+MSG: Sending Access Request from CORE_14 : time =>               446250
+MSG: Sending Access Request from CORE_17 : time =>               446250
+MSG: Sending Access Request from CORE_18 : time =>               446250
+MSG: Sending Access Request from CORE_19 : time =>               446250
+MSG: Sending Access Request from CORE_20 : time =>               446250
+MSG: Sending Access Request from CORE_25 : time =>               446250
+MSG: Sending Access Request from CORE_26 : time =>               446250
+MSG: Sending Access Request from CORE_28 : time =>               446250
+TESTBENCH: DIFF_COUNTER =           0              446250
+DAMN_J =          30              446350
+LOCAL_INDEX =           7              446350
+local_priority_reg =           7              446350
+DAMN_J =           8              446350
+DAMN_J =          29              446350
+DAMN_J =          30              446350
+DAMN_J =          30              446350
+DAMN_J =          30              446350
+DAMN_J =          30              446350
+DAMN_J =          16              446350
+DAMN_J =          30              446350
+DAMN_J =          16              446350
+DAMN_J =           6              446350
+DAMN_J =          17              446350
+DAMN_J =           0              446350
+DAMN_J =           8              446350
+DAMN_J =          10              446350
+DAMN_J =          29              446350
+DAMN_J =           8              446350
+DAMN_J =           5              446350
+DAMN_J =          23              446750
+DAMN_J =          23              446750
+DAMN_J =          11              446850
+LOCAL_INDEX =           7              446850
+local_priority_reg =          26              446850
+DAMN_J =          11              446850
+LOCAL_INDEX =           7              446850
+local_priority_reg =          26              446850
+DAMN_J =           3              446950
+DAMN_J =           3              446950
+GEN_COUNTER =          24              466250
+TESTBENCH: DIFF_COUNTER =           1              466250
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               466450
+MSG: Sending Access Request from CORE_7 : time =>               466450
+MSG: Sending Access Request from CORE_9 : time =>               466450
+MSG: Sending Access Request from CORE_10 : time =>               466450
+MSG: Sending Access Request from CORE_14 : time =>               466450
+MSG: Sending Access Request from CORE_16 : time =>               466450
+MSG: Sending Access Request from CORE_17 : time =>               466450
+MSG: Sending Access Request from CORE_18 : time =>               466450
+MSG: Sending Access Request from CORE_19 : time =>               466450
+MSG: Sending Access Request from CORE_20 : time =>               466450
+MSG: Sending Access Request from CORE_25 : time =>               466450
+MSG: Sending Access Request from CORE_26 : time =>               466450
+MSG: Sending Access Request from CORE_28 : time =>               466450
+TESTBENCH: DIFF_COUNTER =           0              466450
+DAMN_J =          17              466550
+DAMN_J =           5              466550
+DAMN_J =           0              466550
+DAMN_J =          30              466550
+DAMN_J =          30              466550
+DAMN_J =          30              466550
+DAMN_J =          30              466550
+DAMN_J =          30              466550
+DAMN_J =          30              466550
+DAMN_J =          12              466550
+DAMN_J =          28              466550
+DAMN_J =          11              466550
+DAMN_J =           3              466550
+DAMN_J =          30              466550
+DAMN_J =           4              466550
+DAMN_J =           7              466550
+DAMN_J =           5              466550
+DAMN_J =          28              466550
+DAMN_J =          12              466950
+DAMN_J =          19              466950
+LOCAL_INDEX =           7              466950
+local_priority_reg =          18              466950
+DAMN_J =          12              466950
+DAMN_J =          19              466950
+LOCAL_INDEX =           7              466950
+local_priority_reg =          18              466950
+DAMN_J =           0              467050
+DAMN_J =           0              467050
+DAMN_J =           3              467150
+DAMN_J =           3              467150
+GEN_COUNTER =          25              486450
+TESTBENCH: DIFF_COUNTER =           1              486450
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               486650
+MSG: Sending Access Request from CORE_7 : time =>               486650
+MSG: Sending Access Request from CORE_9 : time =>               486650
+MSG: Sending Access Request from CORE_10 : time =>               486650
+MSG: Sending Access Request from CORE_14 : time =>               486650
+MSG: Sending Access Request from CORE_16 : time =>               486650
+MSG: Sending Access Request from CORE_17 : time =>               486650
+MSG: Sending Access Request from CORE_18 : time =>               486650
+MSG: Sending Access Request from CORE_19 : time =>               486650
+MSG: Sending Access Request from CORE_20 : time =>               486650
+MSG: Sending Access Request from CORE_25 : time =>               486650
+MSG: Sending Access Request from CORE_26 : time =>               486650
+MSG: Sending Access Request from CORE_27 : time =>               486650
+MSG: Sending Access Request from CORE_28 : time =>               486650
+TESTBENCH: DIFF_COUNTER =           0              486650
+DAMN_J =           9              486750
+DAMN_J =          30              486750
+DAMN_J =          25              486750
+DAMN_J =          16              486750
+DAMN_J =          28              486750
+DAMN_J =          30              486750
+DAMN_J =          30              486750
+DAMN_J =          30              486750
+DAMN_J =          30              486750
+DAMN_J =           5              486750
+DAMN_J =          19              486750
+DAMN_J =          24              486750
+DAMN_J =          13              486750
+DAMN_J =           6              486750
+DAMN_J =          16              486750
+DAMN_J =          23              486750
+DAMN_J =          21              486750
+DAMN_J =           6              486750
+DAMN_J =          24              486750
+DAMN_J =          31              487150
+DAMN_J =          31              487150
+DAMN_J =          11              487350
+LOCAL_INDEX =           7              487350
+local_priority_reg =          26              487350
+DAMN_J =          11              487350
+LOCAL_INDEX =           7              487350
+local_priority_reg =          26              487350
+GEN_COUNTER =          26              506650
+TESTBENCH: DIFF_COUNTER =           1              506650
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               506850
+MSG: Sending Access Request from CORE_7 : time =>               506850
+MSG: Sending Access Request from CORE_9 : time =>               506850
+MSG: Sending Access Request from CORE_10 : time =>               506850
+MSG: Sending Access Request from CORE_14 : time =>               506850
+MSG: Sending Access Request from CORE_16 : time =>               506850
+MSG: Sending Access Request from CORE_17 : time =>               506850
+MSG: Sending Access Request from CORE_18 : time =>               506850
+MSG: Sending Access Request from CORE_19 : time =>               506850
+MSG: Sending Access Request from CORE_20 : time =>               506850
+MSG: Sending Access Request from CORE_25 : time =>               506850
+MSG: Sending Access Request from CORE_26 : time =>               506850
+MSG: Sending Access Request from CORE_27 : time =>               506850
+MSG: Sending Access Request from CORE_28 : time =>               506850
+MSG: Sending Access Request from CORE_30 : time =>               506850
+TESTBENCH: DIFF_COUNTER =           0              506850
+DAMN_J =          17              506950
+DAMN_J =          30              506950
+DAMN_J =          30              506950
+DAMN_J =          30              506950
+DAMN_J =          30              506950
+DAMN_J =          30              506950
+DAMN_J =          30              506950
+DAMN_J =          30              506950
+DAMN_J =          30              506950
+DAMN_J =          30              506950
+DAMN_J =          30              506950
+DAMN_J =          29              506950
+DAMN_J =           5              506950
+DAMN_J =           6              506950
+DAMN_J =          14              506950
+DAMN_J =           6              506950
+DAMN_J =          22              506950
+DAMN_J =          13              506950
+DAMN_J =           0              506950
+DAMN_J =          20              506950
+LOCAL_INDEX =           7              506950
+local_priority_reg =          17              506950
+DAMN_J =          29              506950
+DAMN_J =          21              506950
+DAMN_J =           6              507350
+DAMN_J =           6              507350
+DAMN_J =           1              507450
+DAMN_J =           6              507450
+DAMN_J =           0              507450
+DAMN_J =           0              507450
+DAMN_J =           1              507450
+DAMN_J =           6              507450
+DAMN_J =          16              508050
+DAMN_J =          16              508050
+GEN_COUNTER =          27              526850
+TESTBENCH: DIFF_COUNTER =           1              526850
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               527050
+MSG: Sending Access Request from CORE_7 : time =>               527050
+MSG: Sending Access Request from CORE_9 : time =>               527050
+MSG: Sending Access Request from CORE_10 : time =>               527050
+MSG: Sending Access Request from CORE_14 : time =>               527050
+MSG: Sending Access Request from CORE_15 : time =>               527050
+MSG: Sending Access Request from CORE_16 : time =>               527050
+MSG: Sending Access Request from CORE_17 : time =>               527050
+MSG: Sending Access Request from CORE_18 : time =>               527050
+MSG: Sending Access Request from CORE_19 : time =>               527050
+MSG: Sending Access Request from CORE_20 : time =>               527050
+MSG: Sending Access Request from CORE_25 : time =>               527050
+MSG: Sending Access Request from CORE_26 : time =>               527050
+MSG: Sending Access Request from CORE_27 : time =>               527050
+MSG: Sending Access Request from CORE_28 : time =>               527050
+MSG: Sending Access Request from CORE_29 : time =>               527050
+MSG: Sending Access Request from CORE_30 : time =>               527050
+TESTBENCH: DIFF_COUNTER =           0              527050
+DAMN_J =          30              527150
+LOCAL_INDEX =           7              527150
+local_priority_reg =           7              527150
+DAMN_J =          30              527150
+DAMN_J =          30              527150
+DAMN_J =          22              527150
+DAMN_J =          10              527150
+DAMN_J =          30              527150
+DAMN_J =          22              527150
+DAMN_J =          30              527150
+DAMN_J =          30              527150
+DAMN_J =          27              527150
+DAMN_J =           9              527150
+DAMN_J =          29              527150
+DAMN_J =           2              527150
+DAMN_J =          10              527150
+DAMN_J =           0              527150
+DAMN_J =           5              527150
+DAMN_J =          26              527150
+DAMN_J =          18              527150
+DAMN_J =          16              527150
+DAMN_J =           8              527150
+DAMN_J =          11              527150
+DAMN_J =           3              527150
+DAMN_J =           7              527550
+DAMN_J =           7              527550
+DAMN_J =          12              527650
+DAMN_J =          12              527650
+DAMN_J =          14              527750
+DAMN_J =          25              527750
+DAMN_J =          25              527750
+DAMN_J =          14              527750
+DAMN_J =           2              528150
+DAMN_J =           2              528150
+GEN_COUNTER =          28              547050
+TESTBENCH: DIFF_COUNTER =           1              547050
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               547250
+MSG: Sending Access Request from CORE_7 : time =>               547250
+MSG: Sending Access Request from CORE_9 : time =>               547250
+MSG: Sending Access Request from CORE_10 : time =>               547250
+MSG: Sending Access Request from CORE_14 : time =>               547250
+MSG: Sending Access Request from CORE_15 : time =>               547250
+MSG: Sending Access Request from CORE_16 : time =>               547250
+MSG: Sending Access Request from CORE_17 : time =>               547250
+MSG: Sending Access Request from CORE_18 : time =>               547250
+MSG: Sending Access Request from CORE_19 : time =>               547250
+MSG: Sending Access Request from CORE_20 : time =>               547250
+MSG: Sending Access Request from CORE_25 : time =>               547250
+MSG: Sending Access Request from CORE_26 : time =>               547250
+MSG: Sending Access Request from CORE_27 : time =>               547250
+MSG: Sending Access Request from CORE_28 : time =>               547250
+MSG: Sending Access Request from CORE_29 : time =>               547250
+MSG: Sending Access Request from CORE_30 : time =>               547250
+TESTBENCH: DIFF_COUNTER =           0              547250
+DAMN_J =          21              547350
+DAMN_J =          30              547350
+DAMN_J =           3              547350
+DAMN_J =          10              547350
+DAMN_J =          30              547350
+DAMN_J =          30              547350
+DAMN_J =          16              547350
+DAMN_J =          30              547350
+DAMN_J =          30              547350
+DAMN_J =          30              547350
+DAMN_J =          30              547350
+DAMN_J =          30              547350
+DAMN_J =           3              547350
+DAMN_J =          16              547350
+DAMN_J =          12              547350
+DAMN_J =           2              547350
+DAMN_J =           7              547350
+DAMN_J =          24              547350
+DAMN_J =          13              547350
+DAMN_J =           2              547350
+DAMN_J =          28              547350
+DAMN_J =          20              547350
+DAMN_J =          22              547350
+DAMN_J =           9              547750
+DAMN_J =           9              547750
+DAMN_J =          24              547850
+DAMN_J =           4              547850
+LOCAL_INDEX =           7              547850
+local_priority_reg =           1              547850
+DAMN_J =          13              547850
+DAMN_J =          24              547850
+DAMN_J =           4              547850
+LOCAL_INDEX =           7              547850
+local_priority_reg =           1              547850
+DAMN_J =          13              547850
+DAMN_J =           8              547950
+DAMN_J =           8              547950
+DAMN_J =          31              548350
+DAMN_J =          31              548350
+GEN_COUNTER =          29              567250
+TESTBENCH: DIFF_COUNTER =           1              567250
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               567450
+MSG: Sending Access Request from CORE_7 : time =>               567450
+MSG: Sending Access Request from CORE_9 : time =>               567450
+MSG: Sending Access Request from CORE_10 : time =>               567450
+MSG: Sending Access Request from CORE_14 : time =>               567450
+MSG: Sending Access Request from CORE_15 : time =>               567450
+MSG: Sending Access Request from CORE_16 : time =>               567450
+MSG: Sending Access Request from CORE_17 : time =>               567450
+MSG: Sending Access Request from CORE_18 : time =>               567450
+MSG: Sending Access Request from CORE_19 : time =>               567450
+MSG: Sending Access Request from CORE_20 : time =>               567450
+MSG: Sending Access Request from CORE_21 : time =>               567450
+MSG: Sending Access Request from CORE_25 : time =>               567450
+MSG: Sending Access Request from CORE_26 : time =>               567450
+MSG: Sending Access Request from CORE_27 : time =>               567450
+MSG: Sending Access Request from CORE_28 : time =>               567450
+MSG: Sending Access Request from CORE_29 : time =>               567450
+MSG: Sending Access Request from CORE_30 : time =>               567450
+TESTBENCH: DIFF_COUNTER =           0              567450
+DAMN_J =          24              567550
+DAMN_J =          20              567550
+DAMN_J =          30              567550
+DAMN_J =          15              567550
+DAMN_J =           4              567550
+DAMN_J =          30              567550
+DAMN_J =          18              567550
+DAMN_J =          30              567550
+DAMN_J =          30              567550
+DAMN_J =          30              567550
+DAMN_J =          30              567550
+DAMN_J =           2              567550
+DAMN_J =          17              567550
+DAMN_J =           7              567550
+DAMN_J =           9              567550
+DAMN_J =          25              567550
+DAMN_J =           5              567550
+DAMN_J =          24              567550
+DAMN_J =           1              567550
+DAMN_J =          23              567550
+DAMN_J =           6              567950
+DAMN_J =          14              567950
+DAMN_J =          14              567950
+DAMN_J =           6              567950
+DAMN_J =          12              568050
+DAMN_J =          12              568050
+DAMN_J =          20              568150
+DAMN_J =          10              568150
+DAMN_J =           5              568150
+DAMN_J =          20              568150
+DAMN_J =          10              568150
+DAMN_J =           5              568150
+DAMN_J =          14              568450
+DAMN_J =          14              568450
+DAMN_J =          11              568550
+DAMN_J =          11              568550
+GEN_COUNTER =          30              587450
+TESTBENCH: DIFF_COUNTER =           1              587450
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               587650
+MSG: Sending Access Request from CORE_7 : time =>               587650
+MSG: Sending Access Request from CORE_9 : time =>               587650
+MSG: Sending Access Request from CORE_10 : time =>               587650
+MSG: Sending Access Request from CORE_14 : time =>               587650
+MSG: Sending Access Request from CORE_15 : time =>               587650
+MSG: Sending Access Request from CORE_16 : time =>               587650
+MSG: Sending Access Request from CORE_17 : time =>               587650
+MSG: Sending Access Request from CORE_18 : time =>               587650
+MSG: Sending Access Request from CORE_19 : time =>               587650
+MSG: Sending Access Request from CORE_20 : time =>               587650
+MSG: Sending Access Request from CORE_21 : time =>               587650
+MSG: Sending Access Request from CORE_25 : time =>               587650
+MSG: Sending Access Request from CORE_26 : time =>               587650
+MSG: Sending Access Request from CORE_27 : time =>               587650
+MSG: Sending Access Request from CORE_28 : time =>               587650
+MSG: Sending Access Request from CORE_29 : time =>               587650
+MSG: Sending Access Request from CORE_30 : time =>               587650
+TESTBENCH: DIFF_COUNTER =           0              587650
+DAMN_J =           8              587750
+DAMN_J =          22              587750
+DAMN_J =          18              587750
+DAMN_J =          23              587750
+DAMN_J =           1              587750
+DAMN_J =           0              587750
+DAMN_J =          30              587750
+DAMN_J =          30              587750
+DAMN_J =          30              587750
+DAMN_J =          30              587750
+DAMN_J =           0              587750
+DAMN_J =          20              587750
+DAMN_J =          10              587750
+DAMN_J =           4              587750
+DAMN_J =          19              587750
+DAMN_J =          11              587750
+DAMN_J =           9              587750
+DAMN_J =          25              587750
+DAMN_J =          21              587750
+DAMN_J =          15              587750
+DAMN_J =          31              587750
+DAMN_J =          10              587750
+DAMN_J =          18              587750
+DAMN_J =           5              588250
+DAMN_J =           5              588250
+DAMN_J =          13              588350
+DAMN_J =           6              588350
+DAMN_J =           2              588350
+DAMN_J =           6              588350
+DAMN_J =          13              588350
+DAMN_J =           2              588350
+DAMN_J =           9              588850
+DAMN_J =           9              588850
+GEN_COUNTER =          31              607650
+TESTBENCH: DIFF_COUNTER =           1              607650
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               607850
+MSG: Sending Access Request from CORE_7 : time =>               607850
+MSG: Sending Access Request from CORE_9 : time =>               607850
+MSG: Sending Access Request from CORE_10 : time =>               607850
+MSG: Sending Access Request from CORE_14 : time =>               607850
+MSG: Sending Access Request from CORE_15 : time =>               607850
+MSG: Sending Access Request from CORE_16 : time =>               607850
+MSG: Sending Access Request from CORE_17 : time =>               607850
+MSG: Sending Access Request from CORE_18 : time =>               607850
+MSG: Sending Access Request from CORE_19 : time =>               607850
+MSG: Sending Access Request from CORE_20 : time =>               607850
+MSG: Sending Access Request from CORE_21 : time =>               607850
+MSG: Sending Access Request from CORE_24 : time =>               607850
+MSG: Sending Access Request from CORE_25 : time =>               607850
+MSG: Sending Access Request from CORE_26 : time =>               607850
+MSG: Sending Access Request from CORE_27 : time =>               607850
+MSG: Sending Access Request from CORE_28 : time =>               607850
+MSG: Sending Access Request from CORE_29 : time =>               607850
+MSG: Sending Access Request from CORE_30 : time =>               607850
+TESTBENCH: DIFF_COUNTER =           0              607850
+DAMN_J =          15              607950
+DAMN_J =          23              607950
+DAMN_J =          30              607950
+DAMN_J =          30              607950
+DAMN_J =          30              607950
+DAMN_J =          15              607950
+DAMN_J =          30              607950
+DAMN_J =          22              607950
+DAMN_J =          30              607950
+DAMN_J =          30              607950
+DAMN_J =          30              607950
+DAMN_J =          30              607950
+DAMN_J =          30              607950
+DAMN_J =           4              607950
+DAMN_J =          24              607950
+DAMN_J =           8              607950
+DAMN_J =           0              607950
+DAMN_J =          19              607950
+DAMN_J =           5              607950
+DAMN_J =          22              607950
+DAMN_J =          23              607950
+DAMN_J =           5              607950
+DAMN_J =          10              607950
+DAMN_J =          25              607950
+DAMN_J =          17              608350
+DAMN_J =           1              608350
+DAMN_J =           8              608350
+DAMN_J =           8              608350
+DAMN_J =          17              608350
+DAMN_J =           1              608350
+DAMN_J =          22              608450
+DAMN_J =           3              608450
+DAMN_J =          22              608450
+DAMN_J =           3              608450
+DAMN_J =          10              608550
+DAMN_J =          10              608550
+DAMN_J =          16              608950
+DAMN_J =          16              608950
+DAMN_J =           0              609050
+DAMN_J =           0              609050
+GEN_COUNTER =          32              627850
+TESTBENCH: DIFF_COUNTER =           1              627850
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           1 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_6 : time =>               628050
+MSG: Sending Access Request from CORE_7 : time =>               628050
+MSG: Sending Access Request from CORE_9 : time =>               628050
+MSG: Sending Access Request from CORE_10 : time =>               628050
+MSG: Sending Access Request from CORE_14 : time =>               628050
+MSG: Sending Access Request from CORE_15 : time =>               628050
+MSG: Sending Access Request from CORE_16 : time =>               628050
+MSG: Sending Access Request from CORE_17 : time =>               628050
+MSG: Sending Access Request from CORE_18 : time =>               628050
+MSG: Sending Access Request from CORE_19 : time =>               628050
+MSG: Sending Access Request from CORE_20 : time =>               628050
+MSG: Sending Access Request from CORE_21 : time =>               628050
+MSG: Sending Access Request from CORE_23 : time =>               628050
+MSG: Sending Access Request from CORE_24 : time =>               628050
+MSG: Sending Access Request from CORE_25 : time =>               628050
+MSG: Sending Access Request from CORE_26 : time =>               628050
+MSG: Sending Access Request from CORE_27 : time =>               628050
+MSG: Sending Access Request from CORE_28 : time =>               628050
+MSG: Sending Access Request from CORE_29 : time =>               628050
+MSG: Sending Access Request from CORE_30 : time =>               628050
+TESTBENCH: DIFF_COUNTER =           0              628050
+DAMN_J =           4              628150
+DAMN_J =          11              628150
+DAMN_J =           0              628150
+DAMN_J =          20              628150
+DAMN_J =          30              628150
+DAMN_J =          30              628150
+DAMN_J =          25              628150
+DAMN_J =          30              628150
+DAMN_J =          30              628150
+DAMN_J =          30              628150
+DAMN_J =          27              628150
+DAMN_J =           1              628150
+DAMN_J =           1              628150
+DAMN_J =           2              628150
+DAMN_J =          20              628150
+DAMN_J =          10              628150
+DAMN_J =           2              628150
+DAMN_J =           1              628150
+DAMN_J =           4              628150
+DAMN_J =          22              628150
+DAMN_J =           2              628550
+DAMN_J =          14              628550
+DAMN_J =           2              628550
+DAMN_J =          14              628550
+DAMN_J =           2              628650
+DAMN_J =           9              628650
+DAMN_J =           9              628650
+DAMN_J =           2              628650
+DAMN_J =           4              628750
+LOCAL_INDEX =           7              628750
+local_priority_reg =           1              628750
+DAMN_J =           4              628750
+LOCAL_INDEX =           7              628750
+local_priority_reg =           1              628750
+DAMN_J =           1              629050
+DAMN_J =           1              629050
+DAMN_J =           1              629150
+DAMN_J =           1              629150
+DAMN_J =           7              629250
+DAMN_J =           7              629250
+DAMN_J =           0              629550
+DAMN_J =           0              629550
+DAMN_J =          28              629650
+DAMN_J =          28              629650
+DAMN_J =           8              629850
+DAMN_J =           8              629850
+RAND_DATA =           1
+RANDOM_OBJECT_ID : =           1              648250
+INTERCONNECT_SINGLE_REQUEST_TEST -> Time =>               648250
+GEN_COUNTER =          33              648550
+GEN_COUNTER =          34              648550
+GEN_COUNTER =          35              648550
+GEN_COUNTER =          36              648550
+GEN_COUNTER =          37              648550
+GEN_COUNTER =          38              648550
+GEN_COUNTER =          39              648550
+GEN_COUNTER =          40              648550
+GEN_COUNTER =          41              648550
+GEN_COUNTER =          42              648550
+GEN_COUNTER =          43              648550
+GEN_COUNTER =          44              648550
+GEN_COUNTER =          45              648550
+GEN_COUNTER =          46              648550
+GEN_COUNTER =          47              648550
+GEN_COUNTER =          48              648550
+GEN_COUNTER =          49              648550
+GEN_COUNTER =          50              648550
+GEN_COUNTER =          51              648550
+GEN_COUNTER =          52              648550
+GEN_COUNTER =          53              648550
+GEN_COUNTER =          54              648550
+GEN_COUNTER =          55              648550
+GEN_COUNTER =          56              648550
+GEN_COUNTER =          57              648550
+GEN_COUNTER =          58              648550
+GEN_COUNTER =          59              648550
+GEN_COUNTER =          60              648550
+GEN_COUNTER =          61              648550
+GEN_COUNTER =          62              648550
+GEN_COUNTER =          63              648550
+GEN_COUNTER =          64              648550
+TESTBENCH: DIFF_COUNTER =          32              648550
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          32 ~~~~~~~~~~~~
+
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          32 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               648750
+TESTBENCH: DIFF_COUNTER =          31              648750
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          31 ~~~~~~~~~~~~
+
+MSG: Sending Access Request from CORE_0 : time =>               648850
+TESTBENCH: DIFF_COUNTER =          30              648850
+DAMN_J =          24              648850
+DAMN_J =           6              648850
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          30 ~~~~~~~~~~~~
+
+MSG: Request from Core0 already pending : time =>               648950
+MSG: Sending Access Request from CORE_2 : time =>               648950
+MSG: Request from Core0 already pending : time =>               648950
+TESTBENCH: DIFF_COUNTER =          29              648950
+DAMN_J =          15              648950
+DAMN_J =           6              648950
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          29 ~~~~~~~~~~~~
+
+MSG: Request from Core0 already pending : time =>               649050
+MSG: Request from Core1 already pending : time =>               649050
+MSG: Sending Access Request from CORE_3 : time =>               649050
+MSG: Request from Core0 already pending : time =>               649050
+TESTBENCH: DIFF_COUNTER =          28              649050
+DAMN_J =          17              649050
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          28 ~~~~~~~~~~~~
+
+MSG: Request from Core0 already pending : time =>               649150
+MSG: Request from Core1 already pending : time =>               649150
+MSG: Request from Core2 already pending : time =>               649150
+MSG: Sending Access Request from CORE_4 : time =>               649150
+MSG: Request from Core0 already pending : time =>               649150
+TESTBENCH: DIFF_COUNTER =          27              649150
+DAMN_J =           7              649150
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          27 ~~~~~~~~~~~~
+
+MSG: Request from Core0 already pending : time =>               649250
+MSG: Request from Core1 already pending : time =>               649250
+MSG: Request from Core2 already pending : time =>               649250
+MSG: Request from Core3 already pending : time =>               649250
+MSG: Sending Access Request from CORE_5 : time =>               649250
+MSG: Request from Core0 already pending : time =>               649250
+TESTBENCH: DIFF_COUNTER =          26              649250
+DAMN_J =           5              649250
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          26 ~~~~~~~~~~~~
+
+MSG: Request from Core2 already pending : time =>               649350
+MSG: Request from Core3 already pending : time =>               649350
+MSG: Request from Core4 already pending : time =>               649350
+MSG: Sending Access Request from CORE_6 : time =>               649350
+TESTBENCH: DIFF_COUNTER =          25              649350
+DAMN_J =          10              649350
+DAMN_J =          28              649350
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          25 ~~~~~~~~~~~~
+
+MSG: Request from Core2 already pending : time =>               649450
+MSG: Request from Core3 already pending : time =>               649450
+MSG: Request from Core4 already pending : time =>               649450
+MSG: Request from Core5 already pending : time =>               649450
+MSG: Sending Access Request from CORE_7 : time =>               649450
+TESTBENCH: DIFF_COUNTER =          24              649450
+DAMN_J =           4              649450
+LOCAL_INDEX =           7              649450
+local_priority_reg =           1              649450
+DAMN_J =           8              649450
+LOCAL_INDEX =           7              649450
+local_priority_reg =          29              649450
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          24 ~~~~~~~~~~~~
+
+MSG: Request from Core3 already pending : time =>               649550
+MSG: Request from Core4 already pending : time =>               649550
+MSG: Request from Core5 already pending : time =>               649550
+MSG: Request from Core6 already pending : time =>               649550
+MSG: Sending Access Request from CORE_8 : time =>               649550
+TESTBENCH: DIFF_COUNTER =          23              649550
+DAMN_J =           0              649550
+DAMN_J =          30              649550
+DAMN_J =           0              649550
+DAMN_J =          31              649550
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          23 ~~~~~~~~~~~~
+
+MSG: Request from Core4 already pending : time =>               649650
+MSG: Request from Core5 already pending : time =>               649650
+MSG: Request from Core6 already pending : time =>               649650
+MSG: Request from Core7 already pending : time =>               649650
+MSG: Sending Access Request from CORE_9 : time =>               649650
+TESTBENCH: DIFF_COUNTER =          22              649650
+DAMN_J =           2              649650
+DAMN_J =          22              649650
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          22 ~~~~~~~~~~~~
+
+MSG: Request from Core4 already pending : time =>               649750
+MSG: Request from Core5 already pending : time =>               649750
+MSG: Request from Core6 already pending : time =>               649750
+MSG: Request from Core7 already pending : time =>               649750
+MSG: Request from Core8 already pending : time =>               649750
+MSG: Sending Access Request from CORE_10 : time =>               649750
+TESTBENCH: DIFF_COUNTER =          21              649750
+DAMN_J =          18              649750
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          21 ~~~~~~~~~~~~
+
+MSG: Request from Core4 already pending : time =>               649850
+MSG: Request from Core5 already pending : time =>               649850
+MSG: Request from Core6 already pending : time =>               649850
+MSG: Request from Core7 already pending : time =>               649850
+MSG: Request from Core8 already pending : time =>               649850
+MSG: Request from Core9 already pending : time =>               649850
+MSG: Sending Access Request from CORE_11 : time =>               649850
+TESTBENCH: DIFF_COUNTER =          20              649850
+DAMN_J =          25              649850
+DAMN_J =           7              649850
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          20 ~~~~~~~~~~~~
+
+MSG: Request from Core6 already pending : time =>               649950
+MSG: Request from Core7 already pending : time =>               649950
+MSG: Request from Core8 already pending : time =>               649950
+MSG: Request from Core9 already pending : time =>               649950
+MSG: Request from Core10 already pending : time =>               649950
+MSG: Sending Access Request from CORE_12 : time =>               649950
+TESTBENCH: DIFF_COUNTER =          19              649950
+DAMN_J =          31              649950
+DAMN_J =           3              649950
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          19 ~~~~~~~~~~~~
+
+MSG: Request from Core8 already pending : time =>               650050
+MSG: Request from Core9 already pending : time =>               650050
+MSG: Request from Core10 already pending : time =>               650050
+MSG: Request from Core11 already pending : time =>               650050
+MSG: Sending Access Request from CORE_13 : time =>               650050
+TESTBENCH: DIFF_COUNTER =          18              650050
+DAMN_J =           5              650050
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          18 ~~~~~~~~~~~~
+
+MSG: Request from Core9 already pending : time =>               650150
+MSG: Request from Core10 already pending : time =>               650150
+MSG: Request from Core11 already pending : time =>               650150
+MSG: Request from Core12 already pending : time =>               650150
+MSG: Sending Access Request from CORE_14 : time =>               650150
+TESTBENCH: DIFF_COUNTER =          17              650150
+DAMN_J =          11              650150
+DAMN_J =           3              650150
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          17 ~~~~~~~~~~~~
+
+MSG: Request from Core9 already pending : time =>               650250
+MSG: Request from Core10 already pending : time =>               650250
+MSG: Request from Core11 already pending : time =>               650250
+MSG: Request from Core12 already pending : time =>               650250
+MSG: Request from Core13 already pending : time =>               650250
+MSG: Sending Access Request from CORE_15 : time =>               650250
+TESTBENCH: DIFF_COUNTER =          16              650250
+DAMN_J =           1              650250
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          16 ~~~~~~~~~~~~
+
+MSG: Request from Core11 already pending : time =>               650350
+MSG: Request from Core12 already pending : time =>               650350
+MSG: Request from Core13 already pending : time =>               650350
+MSG: Request from Core14 already pending : time =>               650350
+MSG: Sending Access Request from CORE_16 : time =>               650350
+TESTBENCH: DIFF_COUNTER =          15              650350
+DAMN_J =           1              650350
+DAMN_J =          31              650350
+DAMN_J =           1              650350
+DAMN_J =          10              650350
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          15 ~~~~~~~~~~~~
+
+MSG: Request from Core11 already pending : time =>               650450
+MSG: Request from Core12 already pending : time =>               650450
+MSG: Request from Core13 already pending : time =>               650450
+MSG: Request from Core14 already pending : time =>               650450
+MSG: Request from Core15 already pending : time =>               650450
+MSG: Sending Access Request from CORE_17 : time =>               650450
+TESTBENCH: DIFF_COUNTER =          14              650450
+DAMN_J =           6              650450
+DAMN_J =          31              650450
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          14 ~~~~~~~~~~~~
+
+MSG: Request from Core12 already pending : time =>               650550
+MSG: Request from Core13 already pending : time =>               650550
+MSG: Request from Core14 already pending : time =>               650550
+MSG: Request from Core15 already pending : time =>               650550
+MSG: Request from Core16 already pending : time =>               650550
+MSG: Sending Access Request from CORE_18 : time =>               650550
+TESTBENCH: DIFF_COUNTER =          13              650550
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          13 ~~~~~~~~~~~~
+
+MSG: Request from Core12 already pending : time =>               650650
+MSG: Request from Core13 already pending : time =>               650650
+MSG: Request from Core14 already pending : time =>               650650
+MSG: Request from Core15 already pending : time =>               650650
+MSG: Request from Core16 already pending : time =>               650650
+MSG: Request from Core17 already pending : time =>               650650
+MSG: Sending Access Request from CORE_19 : time =>               650650
+TESTBENCH: DIFF_COUNTER =          12              650650
+DAMN_J =          10              650650
+DAMN_J =           6              650650
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          12 ~~~~~~~~~~~~
+
+MSG: Request from Core14 already pending : time =>               650750
+MSG: Request from Core15 already pending : time =>               650750
+MSG: Request from Core16 already pending : time =>               650750
+MSG: Request from Core17 already pending : time =>               650750
+MSG: Request from Core18 already pending : time =>               650750
+MSG: Sending Access Request from CORE_20 : time =>               650750
+TESTBENCH: DIFF_COUNTER =          11              650750
+DAMN_J =           0              650750
+DAMN_J =          17              650750
+DAMN_J =           0              650750
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          11 ~~~~~~~~~~~~
+
+MSG: Request from Core0 already pending : time =>               650850
+MSG: Request from Core14 already pending : time =>               650850
+MSG: Request from Core16 already pending : time =>               650850
+MSG: Request from Core17 already pending : time =>               650850
+MSG: Request from Core18 already pending : time =>               650850
+MSG: Request from Core0 already pending : time =>               650850
+MSG: Sending Access Request from CORE_21 : time =>               650850
+TESTBENCH: DIFF_COUNTER =          10              650850
+DAMN_J =           0              650850
+DAMN_J =           5              650850
+DAMN_J =           0              650850
+DAMN_J =           9              650850
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =          10 ~~~~~~~~~~~~
+
+MSG: Request from Core0 already pending : time =>               650950
+MSG: Request from Core14 already pending : time =>               650950
+MSG: Request from Core17 already pending : time =>               650950
+MSG: Request from Core18 already pending : time =>               650950
+MSG: Request from Core0 already pending : time =>               650950
+MSG: Request from Core20 already pending : time =>               650950
+MSG: Sending Access Request from CORE_22 : time =>               650950
+TESTBENCH: DIFF_COUNTER =           9              650950
+DAMN_J =          12              650950
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           9 ~~~~~~~~~~~~
+
+MSG: Request from Core0 already pending : time =>               651050
+MSG: Request from Core14 already pending : time =>               651050
+MSG: Request from Core17 already pending : time =>               651050
+MSG: Request from Core18 already pending : time =>               651050
+MSG: Request from Core0 already pending : time =>               651050
+MSG: Request from Core20 already pending : time =>               651050
+MSG: Request from Core21 already pending : time =>               651050
+MSG: Sending Access Request from CORE_23 : time =>               651050
+TESTBENCH: DIFF_COUNTER =           8              651050
+DAMN_J =           8              651050
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           8 ~~~~~~~~~~~~
+
+MSG: Request from Core0 already pending : time =>               651150
+MSG: Request from Core14 already pending : time =>               651150
+MSG: Request from Core17 already pending : time =>               651150
+MSG: Request from Core0 already pending : time =>               651150
+MSG: Request from Core20 already pending : time =>               651150
+MSG: Request from Core21 already pending : time =>               651150
+MSG: Request from Core22 already pending : time =>               651150
+MSG: Sending Access Request from CORE_24 : time =>               651150
+TESTBENCH: DIFF_COUNTER =           7              651150
+DAMN_J =          14              651150
+DAMN_J =           5              651150
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           7 ~~~~~~~~~~~~
+
+MSG: Request from Core14 already pending : time =>               651250
+MSG: Request from Core20 already pending : time =>               651250
+MSG: Request from Core21 already pending : time =>               651250
+MSG: Request from Core22 already pending : time =>               651250
+MSG: Request from Core23 already pending : time =>               651250
+MSG: Sending Access Request from CORE_25 : time =>               651250
+TESTBENCH: DIFF_COUNTER =           6              651250
+DAMN_J =           2              651250
+DAMN_J =          22              651250
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           6 ~~~~~~~~~~~~
+
+MSG: Request from Core21 already pending : time =>               651350
+MSG: Request from Core22 already pending : time =>               651350
+MSG: Request from Core23 already pending : time =>               651350
+MSG: Request from Core24 already pending : time =>               651350
+MSG: Sending Access Request from CORE_26 : time =>               651350
+TESTBENCH: DIFF_COUNTER =           5              651350
+DAMN_J =          18              651350
+DAMN_J =          12              651350
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           5 ~~~~~~~~~~~~
+
+MSG: Request from Core21 already pending : time =>               651450
+MSG: Request from Core22 already pending : time =>               651450
+MSG: Request from Core23 already pending : time =>               651450
+MSG: Request from Core24 already pending : time =>               651450
+MSG: Request from Core25 already pending : time =>               651450
+MSG: Sending Access Request from CORE_27 : time =>               651450
+TESTBENCH: DIFF_COUNTER =           4              651450
+DAMN_J =           7              651450
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           4 ~~~~~~~~~~~~
+
+MSG: Request from Core23 already pending : time =>               651550
+MSG: Request from Core24 already pending : time =>               651550
+MSG: Request from Core25 already pending : time =>               651550
+MSG: Request from Core26 already pending : time =>               651550
+MSG: Sending Access Request from CORE_28 : time =>               651550
+TESTBENCH: DIFF_COUNTER =           3              651550
+DAMN_J =           1              651550
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           3 ~~~~~~~~~~~~
+
+MSG: Request from Core23 already pending : time =>               651650
+MSG: Request from Core25 already pending : time =>               651650
+MSG: Request from Core26 already pending : time =>               651650
+MSG: Request from Core27 already pending : time =>               651650
+MSG: Sending Access Request from CORE_29 : time =>               651650
+TESTBENCH: DIFF_COUNTER =           2              651650
+DAMN_J =           8              651650
+DAMN_J =          12              651650
+
+
+
+
+~~~~~~~~~~~ DIFF_COUNTER =           2 ~~~~~~~~~~~~
+
+MSG: Request from Core25 already pending : time =>               651750
+MSG: Request from Core26 already pending : time =>               651750
+MSG: Request from Core27 already pending : time =>               651750
+MSG: Request from Core28 already pending : time =>               651750
+MSG: Sending Access Request from CORE_30 : time =>               651750
+TESTBENCH: DIFF_COUNTER =           1              651750
+MSG: Request from Core25 already pending : time =>               651850
+MSG: Request from Core26 already pending : time =>               651850
+MSG: Request from Core27 already pending : time =>               651850
+MSG: Request from Core28 already pending : time =>               651850
+MSG: Request from Core29 already pending : time =>               651850
+MSG: Sending Access Request from CORE_31 : time =>               651850
+TESTBENCH: DIFF_COUNTER =           0              651850
+RAND_DATA =           2
+RANDOM_OBJECT_ID : =           2              651850
+MSG: TEST COUNT EXCEEDED MAX TEST COUNT limt of           5
+DAMN_J =           0              651850
+DAMN_J =          27              651850
+DAMN_J =          31              651950
+DAMN_J =          25              651950
+DAMN_J =          31              651950
+DAMN_J =          11              651950
+DAMN_J =           0              652050
+DAMN_J =           0              652050
+Simulation complete via $finish(1) at time 652650 NS + 0
+../testbench/driver.sv:31 	#100 $finish ;
+ncsim> exit
+TOOL:	irun(64)	13.10-s003: Exiting on Dec 16, 2015 at 19:41:24 MST  (total: 00:00:16)

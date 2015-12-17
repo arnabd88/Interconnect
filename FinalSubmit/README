@@ -1,0 +1,15 @@
+
+rtl_tp32toICache4kb_wiredOR/
+ (This directory contains all the design files)
+  -Arbiter.sv
+  -AddressMultiplexer.sv
+  -Demux.sv
+  -tp32toICache4kb.sv(top level design)
+  -DataMultiplexer.sv
+
+verification_wiredOr/
+ - testbench/
+    - contains testbench files, packet generator files, test files
+ - simulation/
+    use ./Runscript to run simulation in cadence(You need to set your path to point towards cadence executables)
+
